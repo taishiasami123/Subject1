@@ -103,6 +103,37 @@ header{
     margin: 0;
 }
 
+.dot{
+    margin-top: 30px;
+    margin-left: 627px;
+    display: flex;
+}
+
+.dot-1{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #A5A5A5;
+    opacity: 0.3;
+}
+
+.dot-2{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #A5A5A5;
+    margin-left: 4px;
+}
+
+.dot-3{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #A5A5A5;
+    opacity: 0.3;
+    margin-left: 4px;
+}
+
 .article-3{
     margin-top: 210px;
 }
