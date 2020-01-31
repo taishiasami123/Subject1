@@ -17,6 +17,7 @@ header{
     font-weight: 600;
     color: #918F89;
     margin: 0px;
+    line-height: 16.5px;
 }
 
 .header-nav{
@@ -32,6 +33,20 @@ header{
     justify-content: space-between;
     list-style: none;
     margin: 0px;
+}
+
+.header-nav-list-item-1{
+    cursor: default;
+}
+
+.header-nav-list-item-a a{
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #272727;
+    border-bottom:  2px solid #3B3B3B;
+    padding-bottom: 10px;
 }
 
 .header-nav-list-item a{
@@ -391,6 +406,7 @@ footer{
     color: #FFFFFF;
     opacity: 1;
     margin: 0;
+    line-height: 30px;
 }
 
 .footer-nav-list{
