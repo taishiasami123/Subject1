@@ -233,6 +233,12 @@ header{
     height: 35px;
     background: #707070 0% 0% no-repeat padding-box;
     opacity: 1;
+    border-radius: 35px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
     margin-top: 67px;
     margin-left: 584px;
 }
