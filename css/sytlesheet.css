@@ -134,6 +134,17 @@ header{
     margin: 0;
 }
 
+.article-4-title-2{
+    text-align: center;
+    font-family: 'Noto Serif JP';
+    font-size: 21px;
+    font-weight: 200;
+    letter-spacing: 2.1px;
+    color: #3B3B3B;
+    margin-top: -160px;
+    margin-bottom: 80px ;
+}
+
 .article-4-contents{
     display: flex;
     padding-top: 40px;
@@ -223,6 +234,37 @@ header{
     margin-left: 584px;
 }
 
+.articl-5{
+    display: flex;
+}
+
+.article-5-text-1{
+    position: absolute;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #3B3B3B;
+    margin-top: 179px;
+    margin-left: 228px;
+}
+
+.article-5-text-2{
+    position: absolute;
+    font-family: Noto Sans;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #3B3B3B;
+    opacity: 0.1;
+    margin-top: 186px;
+    margin-left: 237px;
+}
+
+.img-7{
+    width: 100%;
+}
+
 footer{
     width: 1280px;
     height: 284px;
@@ -243,6 +285,7 @@ footer{
     text-align: center;
     font-family: Gill Sans;
     font-size: 22px;
+    font-weight: 600;
     color: #FFFFFF;
     opacity: 1;
     margin: 0;
