@@ -1,3 +1,4 @@
+/* ヘッダー */
 header{
     display: flex;
     height: 60px;
@@ -11,7 +12,7 @@ header{
 
 .header-logo p{
     text-align: center;
-    font-family: Gill Sans;
+    font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 600;
     color: #918F89;
@@ -34,13 +35,15 @@ header{
 }
 
 .header-nav-list-item a{
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 100;
     text-decoration: none;
     color: #272727;
     opacity: 0.5;
 }
+
+/* Aboutページ */
 
 .container{
     width: 1280px;
@@ -52,7 +55,7 @@ header{
 
 .article-1-title{
     position: absolute;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 60px;
     font-weight: 100;
     color: #918F89;
@@ -78,7 +81,7 @@ header{
 }
 
 .article-2-title{
-    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
     color: #3B3B3B;
@@ -106,7 +109,7 @@ header{
 
 .article-3-title{
     text-align: center;
-    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 2.5px;
@@ -126,7 +129,7 @@ header{
 
 .article-4-title{
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 2.5px;
@@ -136,7 +139,7 @@ header{
 
 .article-4-title-2{
     text-align: center;
-    font-family: 'Noto Serif JP';
+    font-family: 'Noto Sans';
     font-size: 21px;
     font-weight: 200;
     letter-spacing: 2.1px;
@@ -167,7 +170,7 @@ header{
 
 .article-4-bottom{
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 21px;
     font-weight: 200;
     letter-spacing: 1.05px;
@@ -184,7 +187,7 @@ header{
 
 .form-title{
     text-align: center;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 200;
     letter-spacing: 2.5px;
@@ -234,13 +237,15 @@ header{
     margin-left: 584px;
 }
 
+/* Newsページ */
+
 .articl-5{
     display: flex;
 }
 
 .article-5-text-1{
     position: absolute;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 30px;
     font-weight: 100;
     letter-spacing: 3px;
@@ -251,7 +256,7 @@ header{
 
 .article-5-text-2{
     position: absolute;
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 30px;
     font-weight: 100;
     letter-spacing: 3px;
@@ -264,6 +269,66 @@ header{
 .img-7{
     width: 100%;
 }
+
+/* Q&Aページ */
+.article-6{
+    display: flex;
+}
+
+.article-6-text1{
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    margin-top: 179px;
+    margin-left: 228px;
+}
+
+.article-6-text2{
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    margin-top: 187px;
+    margin-left: 240px;
+    opacity: 0.1;
+}
+
+.img-8{
+    width: 100%;
+}
+
+.article-7-title{
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    color: #3B3B3B;
+    margin-top: 98px;
+    margin-bottom: 0px;
+}
+
+.article-7-contents{
+    margin: 73px auto 0px auto;
+    width: 474px;
+}
+
+.article-7-contents p{
+    text-align: left;
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: #3B3B3B;
+    margin-bottom: 100px;
+}
+
+/* footer */
 
 footer{
     width: 1280px;
@@ -283,7 +348,7 @@ footer{
 
 .footer-logo p{
     text-align: center;
-    font-family: Gill Sans;
+    font-family: 'Noto Sans';
     font-size: 22px;
     font-weight: 600;
     color: #FFFFFF;
@@ -299,7 +364,7 @@ footer{
 }
 
 .footer-nav-list a{
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 18px;
     font-weight: 200;
     color: #FFFFFF;
@@ -328,7 +393,7 @@ footer{
 }
 
 .footer-copyright p{
-    font-family: Noto Sans;
+    font-family: 'Noto Sans';
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.4px;
