@@ -430,16 +430,12 @@ footer{
 
 .footer-copyright{
     position: absolute;
-    margin-top: 235px;
-    margin-left: 598px;
-}
-
-.footer-copyright p{
+    top: 235px;
+    right: 50%;
+    margin: auto;
     font-family: 'Noto Sans';
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.4px;
     color: #FFFFFF;
-    text-align: center;
-    margin: 0;
 }
