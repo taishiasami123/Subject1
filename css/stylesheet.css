@@ -167,7 +167,7 @@ header{
     margin-top: 210px;
 }
 
-.about-news-title{
+.about-news h2{
     text-align: center;
     font-family: 'Noto Sans';
     font-size: 25px;
@@ -217,7 +217,7 @@ header{
     align-items: center;
 }
 
-.about-form-title{
+.about-form h2{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
@@ -295,7 +295,7 @@ header{
     margin-top: 86px;
 }
 
-.news-information-title{
+.news-information h2{
     text-align: center;
     font-family: 'Noto Sans';
     font-size: 21px;
