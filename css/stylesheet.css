@@ -2,7 +2,7 @@
 header{
     display: flex;
     height: 60px;
-    width: 1280px;
+    width: 100%;
 }
 
 .header-logo{
@@ -282,7 +282,7 @@ header{
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 3px;
-    color: #3B3B3B;
+    color: #918F89;
     margin-top: 179px;
     margin-left: 228px;
 }
