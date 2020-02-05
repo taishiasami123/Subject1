@@ -3,19 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="sanitize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-    <script>
-        (function (d) {
-            var config = {
-                kitId: 'qzm4mdy',
-                scriptTimeout: 3000,
-                async: true
-            },
-                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-        })(document);
-    </script>
     <title>HTML CSS</title>
 </head>
 
@@ -37,20 +26,18 @@
             <h1 class="about-key-visual-title">We propose a life.</h1>
             <img class="about-key-visual-img" src="img/2x/img1.png" alt="キービジュアル">
         </div>
-        <section>
-            <div class="about-catchphrase">
-                <img class="about-catchphrase-img" src="img/2x/img2.png" alt="家具のディスプレイ">
-                <div class="about-catchphrase-text">
-                    <h2 class="about-catchphrase-title">暮らしを提案する。</h2>
-                    <p class="about-catchphrase-paragraph">
-                        私たちは、家具を売るのではなく、お客様の理想とする<br>
-                        「暮らし」を提案します。<br>
-                        仕事で疲れた後に帰りたくなる、<br>
-                        今日も１日頑張ろうと思える、<br>
-                        そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。
-                    </p>
-                </div>    
-            </div>
+        <section class="about-catchphrase">
+            <img class="about-catchphrase-img" src="img/2x/img2.png" alt="家具のディスプレイ">
+            <div class="about-catchphrase-text">
+                <h2 class="about-catchphrase-title">暮らしを提案する。</h2>
+                <p class="about-catchphrase-paragraph">
+                    私たちは、家具を売るのではなく、お客様の理想とする<br>
+                    「暮らし」を提案します。<br>
+                    仕事で疲れた後に帰りたくなる、<br>
+                    今日も１日頑張ろうと思える、<br>
+                    そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。
+                </p>
+            </div>    
         </section>
         <section>
             <div class="about-gallery">
@@ -65,25 +52,23 @@
                 <li></li>
             </ul>
         </section>
-        <section>
-            <div class="about-news">
-                <h2 class="about-news-title">NEWS</h2>
-                <div class="about-news-contents">
-                    <div class="about-news-left">
-                        <img class="about-news-img-couch" src="img/2x/img4.png" alt="アームストロングのカウチ">
-                        <!-- <p>アームストロングのカウチ入荷</p> -->
-                    </div>
-                    <div class="about-news-center">
-                        <img class="about-news-img-chair" src="img/2x/img5.png" alt="アームストロングのチェア">
-                        <!-- <p>アームストロングのチェア再入荷</p> -->
-                    </div>
-                    <div class="about-news-right">
-                        <img class="about-news-img-table" src="img/2x/img6.png" alt="アームストロングのテーブル">
-                        <!-- <p>アームストロングのテーブル入荷</p> -->
-                    </div>
+        <section  class="about-news">
+            <h2 class="about-news-title">NEWS</h2>
+            <div class="about-news-contents">
+                <div class="about-news-left">
+                    <img class="about-news-img-couch" src="img/2x/img4.png" alt="アームストロングのカウチ">
+                    <!-- <p>アームストロングのカウチ入荷</p> -->
                 </div>
-                <a class="about-news-bottom" href="#">view more</a>
-            </div>    
+                <div class="about-news-center">
+                    <img class="about-news-img-chair" src="img/2x/img5.png" alt="アームストロングのチェア">
+                    <!-- <p>アームストロングのチェア再入荷</p> -->
+                </div>
+                <div class="about-news-right">
+                    <img class="about-news-img-table" src="img/2x/img6.png" alt="アームストロングのテーブル">
+                    <!-- <p>アームストロングのテーブル入荷</p> -->
+                </div>
+            </div>
+            <a class="about-news-bottom" href="#">view more</a>
         </section>
         <div class="about-form">
             <h2 class="about-form-title">CONTACT</h2>
@@ -104,9 +89,7 @@
                 <li class=><a href="qa.html">Q&A</a></li>
             </ul>
         </div>
-        <div class="footer-copyright">
-            <p>@HTMLCSS.code</p>
-        </div>
+        <p class="footer-copyright">@HTMLCSS.code</p>
     </footer>
 </body>
 
