@@ -25,9 +25,7 @@ header{
 .header-nav{
     width: 336px;
     height: 35px;
-    margin-top: 25px;
-    margin-right: 90px;
-    margin-left: auto;
+    margin: 25px 90px 0px 855px;
 }
 
 .header-nav-list{
@@ -37,7 +35,7 @@ header{
     margin: 0px;
 }
 
-.header-nav-list-item-a{
+.header-nav-list-active{
     font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 400;
@@ -47,7 +45,7 @@ header{
     padding-bottom: 11px;
 }
 
-.header-nav-list-item a{
+.header-nav-list a{
     font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 400;
@@ -89,7 +87,7 @@ header{
     margin-left: 88px;
 }
 
-.about-catchphrase-title{
+.about-catchphrase-text h2{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
@@ -101,7 +99,7 @@ header{
     margin: 0;
 }
 
-.about-catchphrase-paragraph{
+.about-catchphrase p{
     font-family: 'Noto Sans';
     font-size: 12px;
     font-weight: 400;
@@ -114,10 +112,12 @@ header{
 
 .about-gallery{
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about-gallery-title{
-    text-align: center;
+.about-gallery h2{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
@@ -126,12 +126,7 @@ header{
     margin: 0;
 }
 
-.about-gallery-img-container{
-    display: flex;
-    justify-content: center;
-}
-
-.about-gallery-img{
+.about-gallery img{
     width: 964px;
     margin-top: 50px;
 }
@@ -197,7 +192,7 @@ header{
     width: 334px;
 }
 
-.about-news-bottom{
+.about-news a{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -276,7 +271,7 @@ header{
     display: flex;
 }
 
-.news-key-visual-text{
+.news-key-visual h1{
     position: absolute;
     font-family: 'Noto Sans';
     font-size: 30px;
@@ -287,7 +282,7 @@ header{
     margin-left: 228px;
 }
 
-.news-key-visual-img{
+.news-key-visual img{
     width: 100%;
 }
 
@@ -329,7 +324,7 @@ header{
     display: flex;
 }
 
-.qa-key-visual-text{
+.qa-key-visual h1{
     position: absolute;
     font-family: 'Noto Sans';
     font-size: 30px;
@@ -341,11 +336,11 @@ header{
     text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
 }
 
-.qa-key-visual-img{
+.qa-key-visual img{
     width: 100%;
 }
 
-.qa-question-title{
+.qa-question h2{
     text-align: center;
     font-family: 'Noto Sans';
     font-size: 21px;
@@ -399,18 +394,14 @@ footer{
     line-height: 30px;
 }
 
-.footer-nav{
+.footer-nav-list{
     width: 335px;
     height: 24px;
     margin: 133px 219px 127px 726px;
-}
-
-.footer-nav-list{
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 0;
-    margin: 0px;
 }
 
 .footer-nav-list li{
