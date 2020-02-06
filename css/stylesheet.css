@@ -75,25 +75,24 @@ header{
 }
 
 .about-catchphrase{
-    display: flex;
-}
-
-.about-catchphrase-img{
-    width: 50%;
-    margin-top: 142px ;
+    height: 500px;
+    background-image: url(../img/2x/img2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 142px;
     margin-left: 88px;
 }
 
-.about-catchphrase-text h2{
+.about-catchphrase h2{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
     color: #3B3B3B;
     font-style: normal;
     letter-spacing: 2.5px;
-    padding-top: 343px;
-    padding-left: 70px;
-    margin: 0;
+    padding-top: 201px;
+    padding-left: 614px;
+    margin: 0px;
 }
 
 .about-catchphrase p{
@@ -102,9 +101,9 @@ header{
     font-weight: 400;
     color: #3B3B3B;
     letter-spacing: 0.36px;
-    padding-top: 40px;
-    padding-left: 70px;
-    margin: 0;
+    margin-top: 40px;
+    margin-left: 614px;
+    margin-bottom: 0px;
 }
 
 .about-gallery{
@@ -177,16 +176,28 @@ header{
     margin-left: 89px
 }
 
-.about-news-img-couch{
+.about-news-left{
     width: 334px;
+    height: 387px;
+    background-image: url(../img/2x/img4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.about-news-img-chair{
+.about-news-center{
     width: 334px;
+    height: 387px;
+    background-image: url(../img/2x/img5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.about-news-img-table{
+.about-news-right{
     width: 334px;
+    height: 387px;
+    background-image: url(../img/2x/img6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .about-news a{
