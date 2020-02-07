@@ -1,14 +1,13 @@
 /* ヘッダー */
 header{
-    display: flex;
     height: 60px;
     width: 100%;
+    display: flex;
 }
 
 .header-logo{
     margin-top: 11px;
     margin-left: 88px;
-    margin-bottom: 0px;
     width: 62px;
     height: 37px;
     text-align: center;
@@ -16,20 +15,21 @@ header{
     font-size: 16px;
     font-weight: 600;
     color: #918F89;
-    line-height: 18.5px;
+    line-height: 16px;
 }
 
 .header-nav{
     width: 336px;
     height: 35px;
-    margin: 25px 90px 0px 855px;
+    margin-top: 25px;
+    margin-left: 705px;
 }
 
 .header-nav-list{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0px;
+    margin-top: 1px;
 }
 
 .header-nav-list-active{
@@ -39,7 +39,8 @@ header{
     text-decoration: none;
     color: #272727;
     border-bottom:  2px solid #3B3B3B;
-    padding-bottom: 11px;
+    padding-bottom: 10px;
+    line-height: 22px;
 }
 
 .header-nav-list a{
@@ -49,11 +50,16 @@ header{
     text-decoration: none;
     color: #272727;
     opacity: 0.5;
+    line-height: 22px;
 }
 
 /* Aboutページ */
 
 .about-key-visual{
+    width: 100%;
+    height: 741px;
+    background-image: url(../img/2x/img1.png);
+    background-size: contain;
     position: relative;
 }
 
@@ -64,10 +70,11 @@ header{
     font-weight: 100;
     color: #918F89;
     letter-spacing: 3px;
+    text-align: left;
     background-color: #FFFFFF;
     opacity: 0.8;
     margin-top: 264px;
-    padding: 31px 95px 21px 88px;
+    padding: 40px 60px 36px 88px;
 }
 
 .about-key-visual-img{
@@ -83,7 +90,7 @@ header{
     margin-left: 88px;
 }
 
-.about-catchphrase h2{
+.about-catchphrase-title{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
@@ -92,10 +99,9 @@ header{
     letter-spacing: 2.5px;
     padding-top: 201px;
     padding-left: 614px;
-    margin: 0px;
 }
 
-.about-catchphrase p{
+.about-catchphrase-text{
     font-family: 'Noto Sans';
     font-size: 12px;
     font-weight: 400;
@@ -103,37 +109,36 @@ header{
     letter-spacing: 0.36px;
     margin-top: 40px;
     margin-left: 614px;
-    margin-bottom: 0px;
+    line-height: 28px;
 }
 
 .about-gallery{
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 200px;
 }
 
-.about-gallery h2{
+.about-gallery-text{
+    width: 75%;
+    text-align: center;
+    background-image: url(../img/2x/img3.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
     letter-spacing: 2.5px;
     color: #3B3B3B;
-    margin: 0;
-}
-
-.about-gallery img{
-    width: 964px;
-    margin-top: 50px;
+    padding-bottom: 553px;
 }
 
 .about-dot{
     margin-top: 30px;
-    margin-bottom: 0px;
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 0px;
 }
 
 .about-dot li{
@@ -158,7 +163,7 @@ header{
     margin-top: 210px;
 }
 
-.about-news h2{
+.about-news-title{
     text-align: center;
     font-family: 'Noto Sans';
     font-size: 25px;
@@ -176,31 +181,116 @@ header{
     margin-left: 89px
 }
 
-.about-news-left{
+.couch{
     width: 334px;
     height: 387px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     background-image: url(../img/2x/img4.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.about-news-center{
+.couch::after{
+    content: "アームストロングのカウチ入荷";
+    color: rgba(255, 255, 255, 1);
+    width: 334px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 387px;
+    transition: all 0.5s;
+}
+
+.couch:hover::after{
+    content: "アームストロングのカウチ入荷";
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    height: 387px;
+    position: absolute;
+    top: 0px;
+}
+
+.chair{
     width: 334px;
     height: 387px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     background-image: url(../img/2x/img5.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+.chair::after{
+    content: "アームストロングのチェア再入荷";
+    color: rgba(255, 255, 255, 1);
+    width: 334px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 387px;
+    transition: all 0.5s;
+}
 
-.about-news-right{
+.chair:hover::after{
+    content: "アームストロングのチェア再入荷";
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    height: 387px;
+    position: absolute;
+    top: 0px;
+}
+
+.table{
     width: 334px;
     height: 387px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     background-image: url(../img/2x/img6.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+.table::after{
+    content: "アームストロングのテーブル入荷";
+    color: rgba(255, 255, 255, 1);
+    width: 334px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 387px;
+    transition: all 0.5s;
+}
 
-.about-news a{
+.table:hover::after{
+    content: "アームストロングのテーブル入荷";
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    justify-content: center;
+    height: 387px;
+    position: absolute;
+    top: 0px;
+}
+
+.about-news-text{
     display: block;
     text-decoration: none;
     text-align: center;
@@ -220,7 +310,7 @@ header{
     align-items: center;
 }
 
-.about-form h2{
+.about-form-title{
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
@@ -229,7 +319,7 @@ header{
     margin: 0;
 }
 
-.about-form form{
+.about-form-forms{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -285,7 +375,7 @@ header{
     display: flex;
 }
 
-.news-key-visual h1{
+.news-key-visual-title{
     position: absolute;
     font-family: 'Noto Sans';
     font-size: 30px;
@@ -296,7 +386,7 @@ header{
     margin-left: 228px;
 }
 
-.news-key-visual img{
+.news-key-visual-img{
     width: 100%;
 }
 
@@ -304,7 +394,7 @@ header{
     margin-top: 86px;
 }
 
-.news-information h2{
+.news-information-title{
     text-align: center;
     font-family: 'Noto Sans';
     font-size: 21px;
@@ -412,13 +502,14 @@ footer{
     font-weight: 600;
     color: #FFFFFF;
     opacity: 1;
-    line-height: 30px;
+    line-height: 22px;
 }
 
 .footer-nav-list{
     width: 335px;
     height: 24px;
-    margin: 133px 219px 127px 726px;
+    margin-top: 133px;
+    margin-left: 422px;
     display: flex;
     justify-content: space-between;
     list-style: none;
