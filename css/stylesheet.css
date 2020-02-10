@@ -499,6 +499,9 @@ footer{
     background: #918F89 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 221px;
+.footer-container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-logo{
