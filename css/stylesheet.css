@@ -124,10 +124,6 @@ header{
 
 .about-gallery-text{
     text-align: center;
-    background-image: url(../img/2x/img3.png);
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
