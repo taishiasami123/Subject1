@@ -494,8 +494,6 @@ header{
 
 footer{
     height: 284px;
-    display: flex;
-    position: relative;
     background: #918F89 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 221px;
