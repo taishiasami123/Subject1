@@ -541,11 +541,8 @@ footer{
 }
 
 .footer-copyright{
-    position: absolute;
-    top: 235px;
-    right: 50%;
-    margin: auto;
-    font-family: 'Noto Sans';
+    text-align: center;
+    margin: 59px 0px 0px;
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 0.4px;
