@@ -131,9 +131,7 @@ header{
     font-weight: 400;
     letter-spacing: 2.5px;
     color: #3B3B3B;
-}
-
-.about-gallery-img{
+    padding: 0px 0px 583px;
 }
 
 .about-dot{
