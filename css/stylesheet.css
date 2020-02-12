@@ -483,7 +483,6 @@ footer{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0;
     margin: 20px 0px 75px 0px;
 }
 
