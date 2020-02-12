@@ -460,6 +460,7 @@ footer{
     opacity: 1;
     font-family: 'Noto Sans';
     padding: 116px 219px 35px 227px;
+    box-sizing: border-box;
 }
 
 .footer-container{
