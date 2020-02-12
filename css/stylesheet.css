@@ -181,9 +181,6 @@ header{
     width: 334px;
     height: 387px;
     background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     background-image: url(../img/2x/img4.png);
     background-repeat: no-repeat;
@@ -218,9 +215,6 @@ header{
     width: 334px;
     height: 387px;
     background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     background-image: url(../img/2x/img5.png);
     background-repeat: no-repeat;
@@ -254,9 +248,6 @@ header{
     width: 334px;
     height: 387px;
     background-color: rgba(0, 0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     background-image: url(../img/2x/img6.png);
     background-repeat: no-repeat;
