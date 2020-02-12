@@ -480,11 +480,11 @@ footer{
 .footer-nav-list{
     width: 335px;
     height: 24px;
-    margin: 133px 219px 0px 0px;
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 0;
+    margin: 20px 0px 75px 0px;
 }
 
 .footer-nav-list li{
