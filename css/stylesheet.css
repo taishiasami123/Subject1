@@ -290,10 +290,10 @@ header{
 }
 
 .about-form{
-    margin: 221px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 221px;
 }
 
 .about-form-title{
