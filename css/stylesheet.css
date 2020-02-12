@@ -115,13 +115,13 @@ header{
 }
 
 .about-gallery{
-    margin: 200px 0px 0px;
     width: 964px;
     height: 618px;
     background-image: url(../img/2x/img3.png);
     background-repeat: no-repeat;
     background-size: 964px;
     background-position: 50% 79px;
+    margin: 0px auto 210px;
 }
 
 .about-gallery-text{
