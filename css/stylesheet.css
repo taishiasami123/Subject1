@@ -135,7 +135,6 @@ header{
 }
 
 .about-dot{
-    margin: 30px 0px 0px;
     list-style-type: none;
     display: flex;
     justify-content: center;
