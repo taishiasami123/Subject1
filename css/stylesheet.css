@@ -402,30 +402,6 @@ header{
     margin: 50px 0px 0px;
 }
 
-.news-information-left{
-    width: 334px;
-    height: 387px;
-    background-image: url(../img/2x/img4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.news-information-center{
-    width: 334px;
-    height: 387px;
-    background-image: url(../img/2x/img5.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.news-information-right{
-    width: 334px;
-    height: 387px;
-    background-image: url(../img/2x/img6.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 /* Q&Aページ */
 .qa-key-visual{
     width: 100%;
