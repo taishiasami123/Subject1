@@ -103,6 +103,9 @@ header{
 }
 
 .about-catchphrase-text{
+    position: absolute;
+    top: 270px;
+    left: 614px;
     font-family: 'Noto Sans';
     font-size: 12px;
     font-weight: 400;
