@@ -92,6 +92,9 @@ header{
 }
 
 .about-catchphrase-title{
+    position: absolute;
+    top: 201px;
+    left: 614px;
     font-family: 'Noto Sans';
     font-size: 25px;
     font-weight: 400;
