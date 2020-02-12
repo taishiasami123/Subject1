@@ -22,7 +22,7 @@ header{
 .header-nav{
     width: 336px;
     height: 35px;
-    margin: 25px 89px 0px 0px;
+    margin-top: 15px;
 }
 
 .header-nav-list{
