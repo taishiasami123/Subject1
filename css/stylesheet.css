@@ -458,6 +458,7 @@ footer{
     height: 284px;
     background: #918F89 0% 0% no-repeat padding-box;
     opacity: 1;
+    font-family: 'Noto Sans';
 }
 
 .footer-container{
@@ -468,7 +469,6 @@ footer{
 .footer-logo{
     margin: 116px 0px 0px 227px;
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 22px;
     font-weight: 600;
     color: #FFFFFF;
@@ -487,14 +487,12 @@ footer{
 }
 
 .footer-nav-list li{
-    font-family: 'Noto Sans';
     font-size: 18px;
     font-weight: 200;
     color: #FFFFFF;
 }
 
 .footer-nav-list a{
-    font-family: 'Noto Sans';
     font-size: 18px;
     font-weight: 200;
     color: #FFFFFF;
