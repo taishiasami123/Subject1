@@ -332,6 +332,7 @@ header{
     opacity: 0.6;
     margin-bottom: 30px;
     padding-left: 17px;
+    box-sizing: border-box;
 }
 
 .about-form-text{
