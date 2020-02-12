@@ -87,8 +87,8 @@ header{
     height: 500px;
     background-image: url(../img/2x/img2.png);
     background-repeat: no-repeat;
-    background-size: contain;
     margin: 142px auto 0px;
+    background-size: 544px;
 }
 
 .about-catchphrase-title{
