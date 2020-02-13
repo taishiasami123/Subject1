@@ -147,7 +147,6 @@ header{
     border-radius: 50%;
     background-color: #A5A5A5;
     margin: 0px 4px 0px;
-    opacity: 1;
 }
 
 .about-news{
@@ -333,7 +332,6 @@ header{
     width: 111px;
     height: 35px;
     background: #707070 0% 0% no-repeat padding-box;
-    opacity: 1;
     border-radius: 35px;
     font-family: 'Noto Sans';
     font-size: 15px;
@@ -434,7 +432,6 @@ header{
 footer{
     height: 284px;
     background: #918F89 0% 0% no-repeat padding-box;
-    opacity: 1;
     padding: 116px 219px 35px 227px;
     box-sizing: border-box;
 }
@@ -449,7 +446,6 @@ footer{
     font-size: 22px;
     font-weight: 600;
     color: #FFFFFF;
-    opacity: 1;
     line-height: 22px;
 }
 
