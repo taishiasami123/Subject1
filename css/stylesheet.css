@@ -174,20 +174,26 @@ header{
 .couch::after{
     content: "アームストロングのカウチ入荷";
     color: rgba(255, 255, 255, 1);
+    line-height: 387px;
+    text-align: center;
     width: 334px;
     height: 0px;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 387px;
+    left: 0px;
     transition: all 0.5s;
 }
 
 .couch:hover::after{
     content: "アームストロングのカウチ入荷";
     color: rgba(255, 255, 255, 1);
+    line-height: 387px;
+    text-align: center;
     height: 387px;
     position: absolute;
     top: 0px;
+    left: 0px;
 }
 
 .chair{
