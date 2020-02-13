@@ -110,7 +110,7 @@ header{
     height: 618px;
     background-image: url(../img/2x/img3.png);
     background-repeat: no-repeat;
-    background-size: 964px;
+    background-size: contain;
     background-position: 50% 79px;
     margin: 0px auto 210px;
 }
