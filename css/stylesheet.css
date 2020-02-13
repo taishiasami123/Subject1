@@ -432,7 +432,7 @@ header{
 
 footer{
     height: 284px;
-    background: #918F89 0% 0% no-repeat padding-box;
+    background: #918F89;
     padding: 116px 219px 35px 227px;
     box-sizing: border-box;
 }
