@@ -232,7 +232,6 @@ header{
 .table{
     width: 334px;
     height: 387px;
-    background-color: rgba(0, 0, 0, 0);
     position: relative;
     background-image: url(../img/2x/img6.png);
     background-repeat: no-repeat;
