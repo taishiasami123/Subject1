@@ -19,7 +19,6 @@ header{
     width: 62px;
     height: 37px;
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 16px;
     font-weight: 600;
     color: #918F89;
@@ -39,9 +38,7 @@ header{
 }
 
 .header-nav-list-active{
-    font-family: 'Noto Sans';
     font-size: 16px;
-    font-weight: 400;
     text-decoration: none;
     color: #272727;
     border-bottom:  2px solid #3B3B3B;
@@ -52,7 +49,6 @@ header{
 .header-nav-list a{
     font-family: 'Noto Sans';
     font-size: 16px;
-    font-weight: 400;
     text-decoration: none;
     color: #272727;
     opacity: 0.5;
@@ -73,9 +69,7 @@ header{
 .about-key-visual-title{
     position: absolute;
     top: 264px;
-    font-family: 'Noto Sans';
     font-size: 60px;
-    font-weight: 100;
     color: #918F89;
     letter-spacing: 3px;
     text-align: left;
@@ -102,10 +96,7 @@ header{
     position: absolute;
     top: 201px;
     left: 614px;
-    font-family: 'Noto Sans';
     font-size: 25px;
-    font-weight: 400;
-    color: #3B3B3B;
     letter-spacing: 2.5px;
 }
 
@@ -113,10 +104,7 @@ header{
     position: absolute;
     top: 270px;
     left: 614px;
-    font-family: 'Noto Sans';
     font-size: 12px;
-    font-weight: 400;
-    color: #3B3B3B;
     letter-spacing: 0.36px;
     line-height: 28px;
 }
@@ -133,11 +121,8 @@ header{
 
 .about-gallery-text{
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
-    color: #3B3B3B;
     padding: 0px 0px 583px;
 }
 
@@ -171,11 +156,8 @@ header{
 
 .about-news-title{
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
-    color: #3B3B3B;
     margin-bottom: 50px;
 }
 
@@ -288,11 +270,8 @@ header{
     display: block;
     text-decoration: none;
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 21px;
-    font-weight: 200;
     letter-spacing: 1.05px;
-    color: #3B3B3B;
     margin: 39px 0px 0px;
 }
 
@@ -304,11 +283,8 @@ header{
 }
 
 .about-form-title{
-    font-family: 'Noto Sans';
     font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
-    color: #3B3B3B;
     margin-bottom: 60px;
 }
 
@@ -362,7 +338,6 @@ header{
     border-radius: 35px;
     font-family: 'Noto Sans';
     font-size: 15px;
-    font-weight: 400;
     letter-spacing: 0.75px;
     color: #FFFFFF;
 }
@@ -381,9 +356,7 @@ header{
 
 .news-key-visual-title{
     position: absolute;
-    font-family: 'Noto Sans';
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #918F89;
     margin: 179px 0px 0px 228px;
@@ -396,11 +369,8 @@ header{
 
 .news-information-title{
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
-    color: #3B3B3B;
 }
 
 .news-information-contents{
@@ -422,9 +392,7 @@ header{
 
 .qa-key-visual-title{
     position: absolute;
-    font-family: 'Noto Sans';
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #FFFFFF;
     margin: 179px 0px 0px 228px;
@@ -437,9 +405,7 @@ header{
 
 .qa-question-title{
     text-align: center;
-    font-family: 'Noto Sans';
     font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
     color: #3B3B3B;
 }
@@ -451,11 +417,8 @@ header{
 
 .qa-question-contents p{
     text-align: left;
-    font-family: 'Noto Sans';
     font-size: 16px;
-    font-weight: 400;
     letter-spacing: 1.6px;
-    color: #3B3B3B;
     margin: 0px 0px 100px;
 }
 
@@ -465,7 +428,6 @@ footer{
     height: 284px;
     background: #918F89 0% 0% no-repeat padding-box;
     opacity: 1;
-    font-family: 'Noto Sans';
     padding: 116px 219px 35px 227px;
     box-sizing: border-box;
 }
@@ -495,13 +457,11 @@ footer{
 
 .footer-nav-list li{
     font-size: 18px;
-    font-weight: 200;
     color: #FFFFFF;
 }
 
 .footer-nav-list a{
     font-size: 18px;
-    font-weight: 200;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -509,7 +469,6 @@ footer{
 .footer-copyright{
     text-align: center;
     font-size: 10px;
-    font-weight: 400;
     letter-spacing: 0.4px;
     color: #FFFFFF;
 }
