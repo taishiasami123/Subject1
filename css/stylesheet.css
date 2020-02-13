@@ -63,12 +63,9 @@ header{
     background-image: url(../img/2x/img1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
 }
 
 .about-key-visual-title{
-    position: absolute;
-    top: 264px;
     font-size: 60px;
     color: #918F89;
     letter-spacing: 3px;
