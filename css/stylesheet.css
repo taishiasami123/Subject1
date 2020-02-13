@@ -382,6 +382,7 @@ header{
     background-repeat: no-repeat;
     display: flex;
     position: relative;
+    margin-bottom: 98px;
 }
 
 .qa-key-visual-title{
