@@ -173,7 +173,7 @@ header{
     position: relative;
     background-image: url(../img/2x/img4.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .couch::after{
@@ -207,7 +207,7 @@ header{
     position: relative;
     background-image: url(../img/2x/img5.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .chair::after{
     content: "アームストロングのチェア再入荷";
@@ -240,7 +240,7 @@ header{
     position: relative;
     background-image: url(../img/2x/img6.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .table::after{
     content: "アームストロングのテーブル入荷";
