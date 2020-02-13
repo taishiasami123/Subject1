@@ -346,6 +346,7 @@ header{
     position: relative;
     padding: 179px 0px 0px 228px;
     margin-bottom: 86px;
+    box-sizing: border-box;
 }
 
 .news-key-visual-title{
