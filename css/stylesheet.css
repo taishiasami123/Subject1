@@ -370,7 +370,7 @@ header{
 .news-information-contents{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0px 0px;
+    margin: 0px 7% 0px;
 }
 
 /* Q&Aページ */
