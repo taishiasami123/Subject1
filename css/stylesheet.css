@@ -159,6 +159,7 @@ header{
 .about-news-contents{
     display: flex;
     justify-content: space-between;
+    margin: 0px 7% 39px;
 }
 
 .couch{
