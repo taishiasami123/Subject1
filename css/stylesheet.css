@@ -384,6 +384,7 @@ header{
     position: relative;
     margin-bottom: 98px;
     padding: 179px 0px 0px 228px;
+    box-sizing: border-box;
 }
 
 .qa-key-visual-title{
