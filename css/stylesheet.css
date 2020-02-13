@@ -243,9 +243,6 @@ header{
     width: 334px;
     height: 0px;
     background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: absolute;
     top: 387px;
     transition: all 0.5s;
@@ -254,8 +251,6 @@ header{
 .table:hover::after{
     content: "アームストロングのテーブル入荷";
     color: rgba(255, 255, 255, 1);
-    align-items: center;
-    justify-content: center;
     height: 387px;
     position: absolute;
     top: 0px;
