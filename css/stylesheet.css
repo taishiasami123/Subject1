@@ -263,7 +263,7 @@ header{
 }
 
 .about-news-text{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     text-align: center;
     font-size: 21px;
