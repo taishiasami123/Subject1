@@ -399,6 +399,8 @@ header{
 
 .qa-key-visual-title{
     position: absolute;
+    top: 45%;
+    left: 18%;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 3px;
