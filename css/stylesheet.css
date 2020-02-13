@@ -381,6 +381,8 @@ header{
     margin: 0px 7% 0px;
 }
 
+/* 画像についてはabout-news-contents内のcouch, chair, tableで指定 */
+
 /* Q&Aページ */
 .qa-key-visual{
     width: 100%;
