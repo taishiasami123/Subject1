@@ -150,6 +150,7 @@ header{
     border-radius: 50%;
     background-color: #A5A5A5;
     margin: 0px 4px 0px;
+    opacity: 1;
 }
 
 .about-news{
