@@ -391,6 +391,309 @@ footer{
     font-size: 10px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
+}
+}
+
 /* SP表示版 */
 @media screen and (max-width: 768px){
+/* ヘッダー */
+header{
+    height: 55px;
+    width: 100%;
+    background-color: #918f89;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    width: 62px;
+    height: 37px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 16px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    display: none;
+}
+
+/* Aboutページ */
+
+.about-key-visual{
+    position: relative;
+    width: 100%;
+    height: 647px;
+    background-image: url(../img/sp/sp-img01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -55px;
+    margin-bottom: 72px;
+}
+
+.about-key-visual-title{
+    position: absolute;
+    top: 21%;
+    font-size: 39px;
+    font-weight: 400;
+    color: #918F89;
+    letter-spacing: 1.95px;
+    text-align: left;
+    line-height: 85px;
+}
+
+.about-key-visual-title-item{
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    padding: 13px 10px 10px 54px;
+}
+
+.br::before{
+    content: "\A";
+    white-space: pre;
+}
+
+.about-catchphrase{
+    background-image: url(../img/sp/sp-img02.png);
+    background-repeat: no-repeat;
+    background-size: 76%;
+    padding-bottom: 296px;
+    background-position: 50% 318px;
+    margin: 0 auto 140px;
+}
+
+.about-catchphrase-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-bottom: 34px;
+}
+
+.about-catchphrase-text{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+    line-height: 32px;
+}
+
+.about-gallery{
+    width: 96%;
+    height: 392px;
+    background-image: url(../img/sp/sp-img03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 66px;
+    margin: 0px auto 210px;
+}
+
+.about-gallery-text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    padding: 0px 0px 350px;
+}
+
+.about-dot{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.about-dot li{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #A5A5A5;
+    opacity: 0.3;
+}
+
+.about-dot .about-dot-active{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #A5A5A5;
+    margin: 0px 4px 0px;
+    opacity: 1;
+}
+
+.about-news{
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.about-news-title{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-bottom: 85px;
+}
+
+.about-news-contents{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.couch{
+    width: 286px;
+    height: 276px;
+    background-image: url(../img/sp/sp-img04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.couch::after{
+    display: inline-block;
+    content: "アームストロングのカウチ入荷";
+    color: rgba(255, 255, 255, 1);
+    line-height: 276px;
+    text-align: center;
+    width: 286px;
+    height: 276px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.chair{
+    width: 286px;
+    height: 276pxpx;
+    background-image: url(../img/sp/sp-img05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.chair::after{
+    display: inline-block;
+    content: "アームストロングのチェア再入荷";
+    color: rgba(255, 255, 255, 1);
+    line-height: 276px;
+    text-align: center;
+    width: 286px;
+    height: 276px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table{
+    width: 286pxpx;
+    height: 276px;
+    background-image: url(../img/sp/sp-img06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.table::after{
+    display: inline-block;
+    content: "アームストロングのテーブル入荷";
+    color: rgba(255, 255, 255, 1);
+    line-height: 276px;
+    text-align: center;
+    width: 286px;
+    height: 276px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-news-text{
+    display: block;
+    text-decoration: none;
+    font-size: 21px;
+    color: #3B3B3B;
+    letter-spacing: 1.05px;
+}
+
+.about-form{
+    margin-bottom: 178px;
+}
+
+.about-form-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    margin-bottom: 65px;
+}
+
+.about-form-forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-form-name{
+    width: 286px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    padding: 9px 17px;
+    box-sizing: border-box;
+}
+
+.about-form-mail{
+    width: 286px;
+    height: 35px;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    padding: 9px 17px;
+    box-sizing: border-box;
+}
+
+.about-form-text{
+    width: 286px;
+    height: 156px;
+    background: #FFFFFF;
+    border: 0.5px solid #707070;
+    border-radius: 11px;
+    opacity: 0.6;
+    margin-bottom: 35px;
+    padding: 11px 17px;
+    box-sizing: border-box;
+}
+
+.about-form-submit{
+    width: 111px;
+    height: 35px;
+    background: #707070;
+    border-radius: 35px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+footer{
+    height: 276px;
+    background: #918F89;
+    padding-top: 86px;
+    box-sizing: border-box;
+}
+
+.footer-logo{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 18px;
+    margin-bottom: 63px;
+}
+
+.footer-nav-list{
+    display: none;
+}
+
+.footer-copyright{
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
 }
