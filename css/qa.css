@@ -25,6 +25,9 @@
 .qa-question-title{
     text-align: center;
     font-size: 21px;
+/* 全体のfont指定 */
+body{
+    font-family: 'Noto Sans';
     font-weight: 400;
     letter-spacing: 2.1px;
     color: #3B3B3B;
