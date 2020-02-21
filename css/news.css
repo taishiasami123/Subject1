@@ -11,12 +11,13 @@ body{
     /* Newsページ */
     .news-key-visual{
         width: 100%;
-        height: 415px;
+        height: 0;
         background-image: url(../img/2x/img7.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         position: relative;
+        padding-bottom: 32%;
         margin-bottom: 86px;
         box-sizing: border-box;
     }
@@ -59,14 +60,15 @@ body{
 /* SP表示版 */
 @media screen and (max-width: 768px){
     .news-key-visual{
+        position: relative;
         width: 100%;
-        height: 399px;
+        height: 0;
         background-image: url(../img/sp/sp-img07.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0px -55px;
         margin-bottom: 70px;
-        padding-top: 80px;
+        padding-bottom: 106%;
         box-sizing: border-box;
     }
     
