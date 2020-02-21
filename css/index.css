@@ -354,7 +354,6 @@ body{
 
     /* footer */
     footer{
-        height: 284px;
         background: #918F89;
         padding: 116px 219px 35px 227px;
         box-sizing: border-box;
@@ -684,9 +683,8 @@ body{
 
     /* footer */
     footer{
-        height: 276px;
         background: #918F89;
-        padding-top: 86px;
+        padding: 86px 0px 78px;
         box-sizing: border-box;
     }
 
