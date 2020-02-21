@@ -60,11 +60,13 @@ body{
     .about-key-visual{
         position: relative;
         width: 100%;
-        height: 741px;
+        height: 0;
         background-image: url(../img/2x/img1.png);
         background-size: cover;
         background-repeat: no-repeat;
+        padding-bottom: 58%;
         margin-bottom: 142px;
+        box-sizing: border-box;
     }
 
     .about-key-visual-title{
@@ -83,12 +85,14 @@ body{
 
     .about-catchphrase{
         position: relative;
-        width: 1088px;
-        height: 500px;
+        width: 85%;
+        height: 0;
         background-image: url(../img/2x/img2.png);
         background-repeat: no-repeat;
         background-size: contain;
+        padding-bottom: 39%;
         margin: 0 auto 200px;
+        box-sizing: border-box;
     }
 
     .about-catchphrase-title{
@@ -110,13 +114,16 @@ body{
     }
 
     .about-gallery{
-        width: 964px;
-        height: 618px;
+        position: relative;
+        width: 75%;
+        height: 0;
         background-image: url(../img/2x/img3.png);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 50% 79px;
+        background-position: bottom;
+        padding: 79px 0 39%;
         margin: 0px auto 210px;
+        box-sizing: border-box;
     }
 
     .about-gallery-text{
@@ -418,11 +425,12 @@ body{
     .about-key-visual{
         position: relative;
         width: 100%;
-        height: 647px;
+        height: 0;
         background-image: url(../img/sp/sp-img01.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0px -55px;
+        padding-bottom: 173%;
         margin-bottom: 72px;
     }
 
@@ -449,12 +457,16 @@ body{
     }
 
     .about-catchphrase{
+        position: relative;
         background-image: url(../img/sp/sp-img02.png);
         background-repeat: no-repeat;
-        background-size: 76%;
-        padding-bottom: 296px;
-        background-position: 50% 318px;
+        background-size: contain;
+        background-position: bottom;
+        height: 0;
+        width: 76%;
+        padding: 318px 7% 76%;
         margin: 0 auto 140px;
+        box-sizing: border-box;
     }
 
     .about-catchphrase-title{
@@ -473,12 +485,14 @@ body{
     }
 
     .about-gallery{
+        position: relative;
         width: 96%;
-        height: 392px;
+        height: 0;
         background-image: url(../img/sp/sp-img03.png);
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: 50% 66px;
+        background-position: bottom;
+        padding-bottom: 95%;
         margin: 0px auto 210px;
     }
 
