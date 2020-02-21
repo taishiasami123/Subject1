@@ -114,34 +114,24 @@ body{
     }
 
     .about-gallery{
-        position: relative;
         width: 75%;
-        height: 0;
-        background-image: url(../img/2x/img3.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: bottom;
-        padding: 79px 0 39%;
         margin: 0px auto 210px;
-        box-sizing: border-box;
     }
 
     .about-gallery-text{
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
         text-align: center;
         font-size: 25px;
         font-weight: 400;
         letter-spacing: 2.5px;
+        padding-bottom: 58%;
+        margin-bottom: 30px;
+        background-image: url(../img/2x/img3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
     }
 
     .about-dot{
-        position: absolute;
-        top: 104%;
-        left: 50%;
-        transform: translateX(-50%);
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -496,35 +486,24 @@ body{
     }
 
     .about-gallery{
-        position: relative;
         width: 96%;
-        height: 0;
-        background-image: url(../img/sp/sp-img03.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: bottom;
-        padding-bottom: 95%;
         margin: 0px auto 210px;
     }
 
     .about-gallery-text{
-        width: 80vw;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
         text-align: center;
         font-size: 25px;
         font-weight: 400;
         letter-spacing: 2.5px;
-        padding: 0px 0px 350px;
+        padding-bottom: 89%;
+        margin-bottom: 30px;
+        background-image: url(../img/sp/sp-img03.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
     }
 
     .about-dot{
-        position: absolute;
-        top: 109%;
-        left: 50%;
-        transform: translateX(-50%);
         list-style-type: none;
         display: flex;
         justify-content: center;
