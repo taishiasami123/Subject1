@@ -374,7 +374,7 @@ body{
     }
 
     .footer-nav-list{
-        width: 335px;
+        width: 40%;
         height: 24px;
         display: flex;
         justify-content: space-between;
