@@ -405,7 +405,6 @@ body{
 @media screen and (max-width: 768px){
     /* ヘッダー */
     header{
-        height: 55px;
         width: 100%;
         background-color: #918f89;
         padding-top: 10px;
