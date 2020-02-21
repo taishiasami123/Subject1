@@ -362,6 +362,7 @@ body{
     .footer-container{
         display: flex;
         justify-content: space-between;
+        height: 133px;
     }
 
     .footer-logo{
