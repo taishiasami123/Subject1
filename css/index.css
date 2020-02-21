@@ -534,18 +534,14 @@ body{
         margin-bottom: 50px;
     }
 
-    .couch{
+    .contents-item{
         width: 286px;
         height: 276px;
-        background-image: url(../img/sp/sp-img04.png);
-        background-repeat: no-repeat;
-        background-size: cover;
         margin-bottom: 30px;
     }
 
-    .couch::after{
-        display: inline-block;
-        content: "アームストロングのカウチ入荷";
+    .contents-item::after{
+        display: block;
         color: rgba(255, 255, 255, 1);
         line-height: 276px;
         text-align: center;
@@ -554,46 +550,35 @@ body{
         background-color: rgba(0, 0, 0, 0.6);
     }
 
+    .couch{
+        background-image: url(../img/sp/sp-img04.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .couch::after{
+        content: "アームストロングのカウチ入荷";
+    }
+
     .chair{
-        width: 286px;
-        height: 276pxpx;
         background-image: url(../img/sp/sp-img05.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin-bottom: 30px;
     }
     .chair::after{
-        display: inline-block;
         content: "アームストロングのチェア再入荷";
-        color: rgba(255, 255, 255, 1);
-        line-height: 276px;
-        text-align: center;
-        width: 286px;
-        height: 276px;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .table{
-        width: 286pxpx;
-        height: 276px;
         background-image: url(../img/sp/sp-img06.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin-bottom: 30px;
     }
     .table::after{
-        display: inline-block;
         content: "アームストロングのテーブル入荷";
-        color: rgba(255, 255, 255, 1);
-        line-height: 276px;
-        text-align: center;
-        width: 286px;
-        height: 276px;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .about-news-text{
-        display: block;
         text-decoration: none;
         font-size: 21px;
         color: #3B3B3B;
