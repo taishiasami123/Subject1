@@ -168,8 +168,8 @@ body{
 
     .about-news-contents{
         display: flex;
-        justify-content: space-between;
-        margin: 0px 7% 39px;
+        justify-content: space-around;
+        margin-bottom: 39px;
     }
 
     .couch{
