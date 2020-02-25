@@ -317,7 +317,7 @@ body{
     .about-form-submit{
         width: 111px;
         height: 35px;
-        background: #707070;
+        background-color: #707070;
         border-radius: 35px;
         font-family: 'Noto Sans';
         font-size: 15px;
@@ -327,7 +327,7 @@ body{
 
     /* footer */
     footer{
-        background: #918F89;
+        background-color: #918F89;
         padding: 116px 219px 35px 227px;
         box-sizing: border-box;
     }
@@ -483,7 +483,7 @@ body{
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #A5A5A5;
+        background-color: #A5A5A5;
         opacity: 0.3;
     }
 
@@ -582,7 +582,7 @@ body{
 
     .forms{
         width: 100%;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
+        background-color: #ffffff;
         border: 0.5px solid #707070;
         border-radius: 11px;
         opacity: 0.6;
@@ -602,7 +602,7 @@ body{
     .about-form-submit{
         width: 111px;
         height: 35px;
-        background: #707070;
+        background-color: #707070;
         border-radius: 35px;
         font-family: 'Noto Sans';
         font-size: 15px;
@@ -612,7 +612,7 @@ body{
 
     /* footer */
     footer{
-        background: #918F89;
+        background-color: #918F89;
         padding: 86px 0px 78px;
         box-sizing: border-box;
     }
