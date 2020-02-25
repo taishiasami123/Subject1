@@ -1,0 +1,107 @@
+/* 全体のfont指定 */
+body{
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    color: #3B3B3B;
+}
+
+/* PC表示版 */
+@media screen and (min-width:769px){
+
+    /* Q&Aページ */
+    .qa-key-visual{
+        width: 100%;
+        height: 0;
+        background-image: url(../img/2x/img8.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        position: relative;
+        padding-bottom: 32%;
+        margin-bottom: 98px;
+        box-sizing: border-box;
+    }
+
+    .qa-key-visual-title{
+        position: absolute;
+        top: 45%;
+        left: 18%;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
+    }
+
+    .qa-question-title{
+        text-align: center;
+        font-size: 21px;
+        font-weight: 400;
+        letter-spacing: 2.1px;
+        color: #3B3B3B;
+        margin-bottom: 73px;
+    }
+
+    .qa-question-contents{
+        margin: 0px auto 123px;
+        width: 474px;
+    }
+
+    .qa-question-contents p{
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        margin-bottom: 100px;
+    }
+}
+
+/* SP表示版 */
+@media screen and (max-width: 768px){
+
+    /* Q&Aページ */
+    .qa-key-visual{
+        position: relative;
+        width: 100%;
+        height: 0;
+        background-image: url(../img/sp/sp-img08.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -55px;
+        margin-bottom: 98px;
+        padding-bottom: 106%;
+        box-sizing: border-box;
+    }
+
+    .qa-key-visual-title{
+        position: absolute;
+        top: 21%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .qa-question-title{
+        text-align: center;
+        font-size: 21px;
+        font-weight: 400;
+        letter-spacing: 2.1px;
+        color: #3B3B3B;
+        margin-bottom: 50px;
+    }
+
+    .qa-question-contents{
+        margin: 0px auto 123px;
+        width: 74%;
+    }
+
+    .qa-question-contents p{
+        text-align: left;
+        font-size: 13px;
+        letter-spacing: 1.3px;
+        margin: 0px 0px 32px;
+    }
+}

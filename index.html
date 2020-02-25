@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">    
     <link rel="stylesheet" href="css/html5reset-1.6.1.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <title>HTML CSS</title>
 </head>
@@ -22,16 +23,20 @@
     </header>
     <main>
         <div class="about-key-visual">
-            <h1 class="about-key-visual-title">We propose a life.</h1>
+            <h1 class="about-key-visual-title">
+                <span class="about-key-visual-title-item">We</span><span class="br"></span>
+                <span class="about-key-visual-title-item">propose</span><span class="br"></span>
+                <span class="about-key-visual-title-item">a life.</span>
+            </h1>
         </div>
         <section class="about-catchphrase">
             <h2 class="about-catchphrase-title">暮らしを提案する。</h2>
             <p class="about-catchphrase-text">
-                私たちは、家具を売るのではなく、お客様の理想とする<br>
+                私たちは、家具を売るのではなく、<span class="br"></span>お客様の理想とする<br>
                 「暮らし」を提案します。<br>
                 仕事で疲れた後に帰りたくなる、<br>
                 今日も１日頑張ろうと思える、<br>
-                そんな空間をお客様と一緒に作り上げていくのが私たちの仕事です。
+                そんな空間をお客様と一緒に作り上げていくのが<span class="br"></span>私たちの仕事です。
             </p>
         </section>
         <section class="about-gallery">
@@ -45,18 +50,18 @@
         <section class="about-news">
             <h2 class="about-news-title">NEWS</h2>
             <div class="about-news-contents">
-                <div class="couch"></div>
-                <div class="chair"></div>
-                <div class="table"></div>
+                <div class="couch contents-item"></div>
+                <div class="chair contents-item"></div>
+                <div class="table contents-item"></div>
             </div>
             <a class="about-news-text" href="#">view more</a>
         </section>
         <section class="about-form">
             <h2 class="about-form-title">CONTACT</h2>
             <form class="about-form-forms">
-                <input class="about-form-name" type="text" placeholder="お名前">
-                <input class="about-form-mail" type="email" placeholder="メールアドレス">
-                <textarea class="about-form-text" name="content" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+                <input class="forms about-form-name" type="text" placeholder="お名前">
+                <input class="forms about-form-mail" type="email" placeholder="メールアドレス">
+                <textarea class="forms about-form-text" name="content" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
                 <input class="about-form-submit" type="submit" value="SEND">
             </form>
         </section>
