@@ -66,6 +66,10 @@ body{
         transform: matrix(-1, 0, 0, -1, 0, 0);
     }
 
+    .checkbox{
+        display: none;
+    }
+
 }
 
 /* SP表示版 */
