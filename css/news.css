@@ -41,7 +41,7 @@ body{
         font-size: 21px;
         font-weight: 400;
         letter-spacing: 2.1px;
-        margin-bottom: 80px;   
+        margin-bottom: 80px;
     }
 
     .news-information-contents{
@@ -70,7 +70,7 @@ body{
         padding-bottom: 106%;
         box-sizing: border-box;
     }
-    
+
     .news-key-visual-title{
         position: absolute;
         top: 21%;
@@ -82,20 +82,20 @@ body{
         color: #918F89;
         text-align: center;
     }
-    
+
     .news-information{
         text-align: center;
         margin-bottom: 143px;
     }
-    
+
     .news-information-title{
         text-align: center;
         font-size: 21px;
         font-weight: 400;
         letter-spacing: 2.1px;
-        margin-bottom: 70px;   
+        margin-bottom: 70px;
     }
-    
+
     .news-information-contents{
         display: inline-block;
         margin-bottom: 40px;
