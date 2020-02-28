@@ -128,8 +128,9 @@ body{
         width: 74%;
     }
 
-    .qa-question-contents p{
-        text-align: left;
+    .qa-question-contents-label{
+        display: flex;
+        justify-content: space-between;
         font-size: 13px;
         letter-spacing: 1.3px;
         margin: 0px 0px 32px;
