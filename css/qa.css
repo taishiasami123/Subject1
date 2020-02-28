@@ -47,8 +47,9 @@ body{
         width: 37%;
     }
 
-    .qa-question-contents p{
-        text-align: left;
+    .qa-question-contents-label{
+        display: flex;
+        justify-content: space-between;
         font-size: 16px;
         letter-spacing: 1.6px;
         margin-bottom: 100px;
