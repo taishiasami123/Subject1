@@ -43,8 +43,8 @@ body{
     }
 
     .qa-question-contents{
-        width: 474px;
         margin: 0px auto 163px;
+        width: 37%;
     }
 
     .qa-question-contents p{
