@@ -382,6 +382,7 @@ body{
 @media screen and (max-width: 768px){
     /* ヘッダー */
     header{
+        position: fixed;
         width: 100%;
         background-color: #918f89;
         padding: 10px 0px;
