@@ -135,4 +135,15 @@ body{
         letter-spacing: 1.3px;
         margin-bottom: 45px;
     }
+
+    .fas{
+        color: #00000034;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+    .fas.open{
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+    }
 }
