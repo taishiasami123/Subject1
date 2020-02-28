@@ -451,7 +451,34 @@ body{
     }
 
     .header-nav{
-        display: none;
+        position: relative;
+    }
+
+    .header-nav-list{
+        text-align: center;
+        background-color: #918F89;
+        opacity: 0.9;
+    }
+
+    .header-nav-list-item{
+        border-bottom: none;
+        line-height: 0px;
+        transition-property: line-height;
+        transition-duration: 0.5s;
+        font-family: 'Noto Sans';
+        font-size: 0px;
+    }
+
+    .header-nav-list-item.open{
+        line-height: 80px;
+        font-size: 23px;
+        border-bottom: 0.5px solid #FFFFFF;
+    }
+
+    .header-nav-list-active,
+    .header-nav-list a{
+        color: #FFFFFF;
+        text-decoration: none;
     }
 
     /* Aboutページ */
