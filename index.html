@@ -12,12 +12,19 @@
 
 <body>
     <header>
-        <p class="header-logo">HTML<br>CSS</p>
+        <div class="header-container">
+            <p class="header-logo">HTML<br>CSS</p>
+            <div class="humberger" id="humberger">
+                <span class="line humberger-line-top"></span>
+                <span class="line humberger-line-middle"></span>
+                <span class="line humberger-line-bottom"></span>
+            </div>
+        </div>
         <nav class="header-nav">
             <ul class="header-nav-list">
-                <li class="header-nav-list-active">About</li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="qa.html">Q&A</a></li>
+                <li class="header-nav-list-item header-nav-list-active">About</li>
+                <li class="header-nav-list-item"><a href="news.html">News</a></li>
+                <li class="header-nav-list-item"><a href="qa.html">Q&A</a></li>
             </ul>
         </nav>
     </header>
