@@ -26,6 +26,10 @@ body{
         line-height: 16px;
     }
 
+    .humberger{
+        display: none;
+    }
+
     .header-nav{
         width: 336px;
         height: 35px;
