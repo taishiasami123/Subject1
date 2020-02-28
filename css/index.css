@@ -383,6 +383,7 @@ body{
     /* ヘッダー */
     header{
         position: fixed;
+        z-index: 10;
         width: 100%;
         background-color: #918f89;
         padding: 10px 0px;
