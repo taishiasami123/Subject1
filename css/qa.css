@@ -146,4 +146,9 @@ body{
     .fas.open{
         transform: matrix(-1, 0, 0, -1, 0, 0);
     }
+
+    .checkbox{
+        display: none;
+    }
+
 }
