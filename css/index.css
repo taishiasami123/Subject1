@@ -404,6 +404,52 @@ body{
         line-height: 16px;
     }
 
+    .humberger{
+        top: 14px;
+        left: 85%;
+        position: absolute;
+        width: 36px;
+    }
+
+    .humberger span{
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #FFFFFF;
+        transition-property: transform, left, top, width;
+        transition-duration: 0.5s;
+        transform: rotate(0deg);
+    }
+
+    .humberger-line-top{
+        top: 0;
+    }
+
+    .humberger-line-middle{
+        top: 12px;
+    }
+
+    .humberger-line-bottom{
+        top: 24px;
+    }
+
+    .humberger-line-top.active{
+        top: 12px;
+        transform: rotate(45deg);
+    }
+
+    .humberger-line-middle.active{
+        left: 200%;
+        width: 0;
+    }
+
+    .humberger-line-bottom.active{
+        top: 12px;
+        transform: rotate(-45deg);
+    }
+
     .header-nav{
         display: none;
     }
