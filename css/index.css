@@ -406,7 +406,7 @@ body{
 
     .humberger{
         top: 14px;
-        left: 85%;
+        right: 5%;
         position: absolute;
         width: 36px;
     }
