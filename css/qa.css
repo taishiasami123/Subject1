@@ -159,7 +159,6 @@ body{
 
     .qa-question-contents-text.open{
         opacity: 1;
-        font-size: 13px;
-        margin: -15px 0px 35px;
+        margin: 0px 0px 35px;
     }
 }
