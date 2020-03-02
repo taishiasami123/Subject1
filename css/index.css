@@ -473,6 +473,10 @@ body{
         border-bottom: 0.5px solid #FFFFFF;
     }
 
+    .header-nav-list-item:nth-child(3).open{
+        border: none;
+    }
+
     .header-nav-list-active,
     .header-nav-list a{
         color: #FFFFFF;
