@@ -8,101 +8,101 @@ body{
 /* PC表示版 */
 @media screen and (min-width:769px){
 
-    /* Newsページ */
-    .news-key-visual{
-        width: 100%;
-        height: 0;
-        background-image: url(../img/2x/img7.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        position: relative;
-        padding-bottom: 32%;
-        margin-bottom: 86px;
-        box-sizing: border-box;
-    }
+  /* Newsページ */
+  .news-key-visual{
+    width: 100%;
+    height: 0;
+    background-image: url(../img/2x/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    padding-bottom: 32%;
+    margin-bottom: 86px;
+    box-sizing: border-box;
+  }
 
-    .news-key-visual-title{
-        position: absolute;
-        top: 45%;
-        left: 18%;
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #918F89;
-    }
+  .news-key-visual-title{
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #918F89;
+  }
 
-    .news-information{
-        margin-bottom: 320px;
-    }
+  .news-information{
+    margin-bottom: 320px;
+  }
 
-    .news-information-title{
-        text-align: center;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 2.1px;
-        margin-bottom: 80px;
-    }
+  .news-information-title{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    margin-bottom: 80px;
+  }
 
-    .news-information-contents{
-        display: flex;
-        justify-content: space-around;
-    }
+  .news-information-contents{
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .news-information-text{
-        display: none;
-    }
+  .news-information-text{
+      display: none;
+  }
 }
 
 /* 画像についてはabout-news-contents内のcouch, chair, tableで指定 */
 
 /* SP表示版 */
 @media screen and (max-width: 768px){
-    .news-key-visual{
-        position: relative;
-        width: 100%;
-        height: 0;
-        background-image: url(../img/sp/sp-img07.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px -55px;
-        margin-bottom: 70px;
-        padding-bottom: 106%;
-        box-sizing: border-box;
-    }
+  .news-key-visual{
+    position: relative;
+    width: 100%;
+    height: 0;
+    background-image: url(../img/sp/sp-img07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -55px;
+    margin-bottom: 70px;
+    padding-bottom: 106%;
+    box-sizing: border-box;
+  }
 
-    .news-key-visual-title{
-        position: absolute;
-        top: 21%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #918F89;
-        text-align: center;
-    }
+  .news-key-visual-title{
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #918F89;
+    text-align: center;
+  }
 
-    .news-information{
-        text-align: center;
-        margin-bottom: 143px;
-    }
+  .news-information{
+    text-align: center;
+    margin-bottom: 143px;
+  }
 
-    .news-information-title{
-        text-align: center;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 2.1px;
-        margin-bottom: 70px;
-    }
+  .news-information-title{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 2.1px;
+    margin-bottom: 70px;
+  }
 
-    .news-information-contents{
-        display: inline-block;
-        margin-bottom: 40px;
-    }
+  .news-information-contents{
+    display: inline-block;
+    margin-bottom: 40px;
+  }
 
-    .news-information-text{
-        font-size: 21px;
-        letter-spacing: 1.05px;
-    }
+  .news-information-text{
+    font-size: 21px;
+    letter-spacing: 1.05px;
+  }
 }
