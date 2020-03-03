@@ -42,19 +42,18 @@ body {
     list-style: none;
   }
 
-  .header-nav-list-active {
-    border-bottom:  2px solid #3B3B3B;
-    padding-bottom: 8px;
-    line-height: 22px;
-  }
-
-  .header-nav-list a {
-    font-family: 'Noto Sans';
-    font-size: 16px;
+  .header-nav-list-item {
+    font: 400 16px/22px 'noto sans';
     text-decoration: none;
     color: #272727;
     opacity: 0.5;
+  }
+
+  .header-nav-list-item-active {
+    border-bottom:  2px solid #3B3B3B;
+    padding-bottom: 8px;
     line-height: 22px;
+    opacity: 1;
   }
 
   /* Aboutページ */
@@ -456,27 +455,29 @@ body {
     opacity: 0.9;
   }
 
-  .header-nav-list-item {
-    border-bottom: none;
-    line-height: 0px;
-    transition: line-height .5s;
-    font-family: 'Noto Sans';
-    font-size: 0px;
+  .header-nav-list-li{
+    transition: all .5s;
+    height: 0;
   }
 
-  .header-nav-list-item.open {
-    line-height: 80px;
-    font-size: 23px;
+  .header-nav-list-li.open{
+    height: 80px;
     border-bottom: 0.5px solid #FFFFFF;
   }
 
-  .header-nav-list-item:nth-child(3).open {
+  .header-nav-list-li:nth-child(3).open {
     border: none;
   }
 
-  .header-nav-list-active,
-  .header-nav-list a {
-    color: #FFFFFF;
+  .header-nav-list-item {
+    color: #fff;
+    border-bottom: none;
+    transition: line-height .5s;
+    font: 400 0px/0px 'noto sans';
+  }
+
+  .header-nav-list-item.open {
+    font: 400 23px/80px 'noto sans';
     text-decoration: none;
   }
 
