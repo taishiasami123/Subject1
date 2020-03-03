@@ -355,12 +355,7 @@ body {
     margin-top: 20px;
   }
 
-  .footer-nav-list li {
-    font-size: 18px;
-    color: #FFFFFF;
-  }
-
-  .footer-nav-list a {
+  .footer-nav-list-item {
     font-size: 18px;
     color: #FFFFFF;
     text-decoration: none;
