@@ -378,7 +378,7 @@ body {
     width: 36px;
   }
 
-  .humberger span {
+  .line {
     display: block;
     position: absolute;
     left: 0;
