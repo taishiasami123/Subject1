@@ -12,34 +12,29 @@ body {
   .qa-key-visual {
     width: 100%;
     height: 0;
-    background-image: url(../img/2x/img8.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     position: relative;
     padding-bottom: 32%;
     margin-bottom: 98px;
-    box-sizing: border-box;
+    background: url(../img/2x/img8.png) no-repeat border-box left top/cover;
   }
 
   .qa-key-visual-title {
     position: absolute;
     top: 45%;
     left: 18%;
-    font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #FFFFFF;
     text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
+    font: 400 30px/30px 'noto sans';
   }
 
   .qa-question-title {
     text-align: center;
-    font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
     color: #3B3B3B;
     margin-bottom: 102px;
+    font: 400 21px/21px 'noto sans';
   }
 
   .qa-question-contents {
@@ -50,9 +45,9 @@ body {
   .qa-question-contents-label {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
     letter-spacing: 1.6px;
     margin-bottom: 25px;
+    font: 400 16px/16px 'noto sans';
   }
 
   .fas {
@@ -71,11 +66,11 @@ body {
 
   .qa-question-contents-text {
     text-align: left;
-    font-size: 12px;
     letter-spacing: 0.36px;
     margin-bottom: 51px;
     transition: all .3s;
     opacity: 0;
+    font: 400 12px/20px 'noto sans';
   }
 
   .qa-question-contents-text.open {
@@ -91,13 +86,9 @@ body {
     position: relative;
     width: 100%;
     height: 0;
-    background-image: url(../img/sp/sp-img08.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0px -55px;
     margin-bottom: 98px;
     padding-bottom: 106%;
-    box-sizing: border-box;
+    background: url(../img/sp/sp-img08.png) no-repeat border-box left -55px/cover;
   }
 
   .qa-key-visual-title {
@@ -105,20 +96,18 @@ body {
     top: 21%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #FFFFFF;
     text-align: center;
+    font: 400 30px/30px 'noto sans';
   }
 
   .qa-question-title {
     text-align: center;
-    font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
     color: #3B3B3B;
     margin-bottom: 50px;
+    font: 400 21px/21px 'noto sans';
   }
 
   .qa-question-contents {
@@ -129,9 +118,9 @@ body {
   .qa-question-contents-label {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
     letter-spacing: 1.3px;
     margin-bottom: 15px;
+    font: 400 13px/13px 'noto sans';
   }
 
   .fas {
@@ -153,8 +142,8 @@ body {
     letter-spacing: 1.3px;
     transition: all .3s;
     opacity: 0;
-    font-size: 13px;
     margin: -11px 0 0;
+    font: 600 12px/20px 'noto sans';
   }
 
   .qa-question-contents-text.open {

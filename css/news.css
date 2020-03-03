@@ -1,7 +1,5 @@
 /* 全体のfont指定 */
 body {
-    font-family: 'Noto Sans';
-    font-weight: 400;
     color: #3B3B3B;
 }
 
@@ -12,24 +10,20 @@ body {
   .news-key-visual {
     width: 100%;
     height: 0;
-    background-image: url(../img/2x/img7.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(../img/2x/img7.png) no-repeat border-box left top/cover;
     display: flex;
     position: relative;
     padding-bottom: 32%;
     margin-bottom: 86px;
-    box-sizing: border-box;
   }
 
   .news-key-visual-title {
     position: absolute;
     top: 45%;
     left: 18%;
-    font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #918F89;
+    font: 400 30px/30px 'noto sans';
   }
 
   .news-information {
@@ -38,10 +32,9 @@ body {
 
   .news-information-title {
     text-align: center;
-    font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
     margin-bottom: 80px;
+    font: 400 21px/21px 'noto sans';
   }
 
   .news-information-contents {
@@ -62,13 +55,9 @@ body {
     position: relative;
     width: 100%;
     height: 0;
-    background-image: url(../img/sp/sp-img07.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0px -55px;
+    background: url(../img/sp/sp-img07.png) no-repeat border-box left -55px/cover;
     margin-bottom: 70px;
     padding-bottom: 106%;
-    box-sizing: border-box;
   }
 
   .news-key-visual-title {
@@ -76,11 +65,10 @@ body {
     top: 21%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
-    font-weight: 400;
     letter-spacing: 3px;
     color: #918F89;
     text-align: center;
+    font: 400 30px/30px 'noto sans';
   }
 
   .news-information {
@@ -90,10 +78,9 @@ body {
 
   .news-information-title {
     text-align: center;
-    font-size: 21px;
-    font-weight: 400;
     letter-spacing: 2.1px;
     margin-bottom: 70px;
+    font: 400 21px/21px 'noto sans';
   }
 
   .news-information-contents {
@@ -102,7 +89,7 @@ body {
   }
 
   .news-information-text {
-    font-size: 21px;
     letter-spacing: 1.05px;
+    font: 400 21px/21px 'noto sans';
   }
 }

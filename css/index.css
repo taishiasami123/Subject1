@@ -1,7 +1,5 @@
 /* 全体のfont指定 */
 body {
-    font-family: 'Noto Sans';
-    font-weight: 400;
     color: #3B3B3B;
 }
 
@@ -20,10 +18,8 @@ body {
 
   .header-logo {
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
+    font: 600 16px/15px 'noto sans';
     color: #918F89;
-    line-height: 16px;
   }
 
   .humberger {
@@ -61,46 +57,38 @@ body {
     position: relative;
     width: 100%;
     height: 0;
-    background-image: url(../img/2x/img1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(../img/2x/img1.png) no-repeat border-box left top/cover;
     padding-bottom: 58%;
     margin-bottom: 142px;
-    box-sizing: border-box;
   }
 
   .about-key-visual-title {
     position: absolute;
     top: 36%;
     display: inline-block;
-    font-size: 60px;
-    font-weight: 400;
+    font: 400 60px/82px 'noto sans';
     color: #918F89;
     letter-spacing: 3px;
     text-align: left;
-    background-color: #FFFFFF;
+    background-color: #fff;
     opacity: 0.8;
-    padding: 40px 60px 36px 88px;
+    padding: 31px 60px 23px 88px;
   }
 
   .about-catchphrase {
     position: relative;
     width: 85%;
     height: 0;
-    background-image: url(../img/2x/img2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url(../img/2x/img2.png) no-repeat border-box left top/contain;
     padding-bottom: 39%;
     margin: 0 auto 200px;
-    box-sizing: border-box;
   }
 
   .about-catchphrase-title {
     position: absolute;
     top: 40%;
     left: 57%;
-    font-size: 25px;
-    font-weight: 400;
+    font: 400 25px/29px 'noto sans';
     letter-spacing: 2.5px;
   }
 
@@ -109,8 +97,8 @@ body {
     top: 54%;
     left: 57%;
     font-size: 12px;
+    font: 400 12px/30px 'noto sans';
     letter-spacing: 0.36px;
-    line-height: 28px;
   }
 
   .about-gallery {
@@ -120,15 +108,11 @@ body {
 
   .about-gallery-text {
     text-align: center;
-    font-size: 25px;
-    font-weight: 400;
+    font: 400 25px/29px 'noto sans';
     letter-spacing: 2.5px;
     padding-bottom: 58%;
     margin-bottom: 30px;
-    background-image: url(../img/2x/img3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+    background: url(../img/2x/img3.png) no-repeat bottom/contain;
   }
 
   .about-dot {
@@ -160,8 +144,7 @@ body {
   }
 
   .about-news-title {
-    font-size: 25px;
-    font-weight: 400;
+    font: 400 25px/29px 'noto sans';
     letter-spacing: 2.5px;
     margin-bottom: 50px;
   }
@@ -176,15 +159,12 @@ body {
     width: 334px;
     height: 387px;
     position: relative;
-    background-image: url(../img/2x/img4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/2x/img4.png) no-repeat left top/cover;
   }
 
   .couch::after {
     content: "アームストロングのカウチ入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     width: 334px;
     height: 0px;
@@ -193,31 +173,29 @@ body {
     top: 387px;
     left: 0px;
     transition: all 0.5s;
+    font: 400 17px/387px 'noto sans';
   }
 
   .couch:hover::after {
     content: "アームストロングのカウチ入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     height: 387px;
     position: absolute;
     top: 0px;
     left: 0px;
+    font: 400 17px/387px 'noto sans';
   }
 
   .chair {
     width: 334px;
     height: 387px;
     position: relative;
-    background-image: url(../img/2x/img5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/2x/img5.png) no-repeat left top/cover;
   }
   .chair::after {
     content: "アームストロングのチェア再入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     width: 334px;
     height: 0px;
@@ -226,31 +204,30 @@ body {
     top: 387px;
     left: 0px;
     transition: all 0.5s;
+    font: 400 17px/387px 'noto sans';
   }
 
   .chair:hover::after {
     content: "アームストロングのチェア再入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     height: 387px;
     position: absolute;
     top: 0px;
     left: 0px;
+    font: 400 17px/387px 'noto sans';
   }
 
   .table {
     width: 334px;
     height: 387px;
     position: relative;
-    background-image: url(../img/2x/img6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/2x/img6.png) no-repeat left top/cover;
   }
+
   .table::after {
     content: "アームストロングのテーブル入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     width: 334px;
     height: 0px;
@@ -259,25 +236,26 @@ body {
     top: 387px;
     left: 0px;
     transition: all 0.5s;
+    font: 400 17px/387px 'noto sans';
   }
 
   .table:hover::after {
     content: "アームストロングのテーブル入荷";
     color: rgba(255, 255, 255, 1);
-    line-height: 387px;
     text-align: center;
     height: 387px;
     position: absolute;
     top: 0px;
     left: 0px;
+    font: 400 17px/387px 'noto sans';
   }
 
   .about-news-text {
     display: inline-block;
     text-decoration: none;
-    font-size: 21px;
     color: #3B3B3B;
     letter-spacing: 1.05px;
+    font: 400 21px/22px 'noto sans';
   }
 
   .about-form {
@@ -290,6 +268,7 @@ body {
     font-weight: 400;
     letter-spacing: 2.5px;
     margin-bottom: 60px;
+    font: 400 25px/29px 'noto sans';
   }
 
   .about-form-forms {
@@ -319,10 +298,9 @@ body {
     height: 35px;
     background-color: #707070;
     border-radius: 35px;
-    font-family: 'Noto Sans';
-    font-size: 15px;
     letter-spacing: 0.75px;
     color: #FFFFFF;
+    font: 400 15px/17px 'noto sans';
   }
 
   /* footer */
@@ -340,10 +318,8 @@ body {
 
   .footer-logo {
     text-align: center;
-    font-size: 22px;
-    font-weight: 600;
     color: #FFFFFF;
-    line-height: 22px;
+    font: 600 22px/21px 'noto sans';
   }
 
   .footer-nav-list {
@@ -359,6 +335,7 @@ body {
     font-size: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    font: 400 18px/24px 'noto sans';
   }
 
   .footer-copyright {
@@ -366,6 +343,7 @@ body {
     font-size: 10px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
+    font: 400 10px/14px 'noto sans';
   }
 }
 
@@ -389,10 +367,8 @@ body {
 
   .header-logo {
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
     color: #FFFFFF;
-    line-height: 16px;
+    font: 600 16px/15px 'noto sans';
   }
 
   .humberger {
@@ -481,10 +457,7 @@ body {
     position: relative;
     width: 100%;
     height: 0;
-    background-image: url(../img/sp/sp-img01.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0px -55px;
+    background: url(../img/sp/sp-img01.png) no-repeat left -55px/cover;
     padding-bottom: 173%;
     margin-bottom: 72px;
   }
@@ -492,12 +465,10 @@ body {
   .about-key-visual-title {
     position: absolute;
     top: 21%;
-    font-size: 39px;
-    font-weight: 400;
     color: #918F89;
     letter-spacing: 1.95px;
     text-align: left;
-    line-height: 85px;
+    font: 400 39px/85px 'noto sans';
   }
 
   .about-key-visual-title-item {
@@ -516,24 +487,19 @@ body {
   }
 
   .about-catchphrase-title {
-    font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
     text-align: center;
     margin-bottom: 34px;
+    font: 400 25px/25px 'noto sans';
   }
 
   .about-catchphrase-text {
     height: 0;
-    font-size: 14px;
     letter-spacing: 0.42px;
-    line-height: 32px;
     text-align: center;
     padding-bottom: 163%;
-    background-image: url(../img/sp/sp-img02.png);
-    background-repeat: no-repeat;
-    background-size: 89%;
-    background-position: bottom;
+    background: url(../img/sp/sp-img02.png) no-repeat bottom/89%;
+    font: 400 14px/32px 'noto sans';
   }
 
   .about-gallery {
@@ -542,15 +508,11 @@ body {
 
   .about-gallery-text {
     text-align: center;
-    font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
     padding-bottom: 89%;
     margin-bottom: 30px;
-    background-image: url(../img/sp/sp-img03.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+    background: url(../img/sp/sp-img03.png) no-repeat bottom/contain;
+    font: 400 25px/36px 'noto sans';
   }
 
   .about-dot {
@@ -582,10 +544,9 @@ body {
   }
 
   .about-news-title {
-    font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
     margin-bottom: 85px;
+    font: 400 25px/29px 'noto sans';
   }
 
   .about-news-contents {
@@ -602,17 +563,15 @@ body {
   .contents-item::after {
     display: block;
     color: rgba(255, 255, 255, 1);
-    line-height: 276px;
     text-align: center;
     width: 286px;
     height: 276px;
     background-color: rgba(0, 0, 0, 0.6);
+    font: 400 17px/276px 'noto sans';
   }
 
   .couch {
-    background-image: url(../img/sp/sp-img04.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/sp/sp-img04.png) no-repeat left top/cover;
   }
 
   .couch::after {
@@ -620,18 +579,14 @@ body {
   }
 
   .chair {
-    background-image: url(../img/sp/sp-img05.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/sp/sp-img05.png) no-repeat left top/cover;
   }
   .chair::after {
     content: "アームストロングのチェア再入荷";
   }
 
   .table {
-    background-image: url(../img/sp/sp-img06.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/sp/sp-img06.png) no-repeat left top/cover;
   }
   .table::after {
     content: "アームストロングのテーブル入荷";
@@ -639,9 +594,9 @@ body {
 
   .about-news-text {
     text-decoration: none;
-    font-size: 21px;
     color: #3B3B3B;
     letter-spacing: 1.05px;
+    font: 400 21px/22px 'noto sans';
   }
 
   .about-form {
@@ -650,10 +605,9 @@ body {
 
   .about-form-title {
     text-align: center;
-    font-size: 25px;
-    font-weight: 400;
     letter-spacing: 2.5px;
     margin-bottom: 65px;
+    font: 400 25px/29px 'noto sans';
   }
 
   .about-form-forms {
@@ -668,6 +622,7 @@ body {
     opacity: 0.6;
     margin-bottom: 20px;
     box-sizing: border-box;
+    font: 400 14px/20px 'noto sans';
   }
 
   .about-form-name, .about-form-mail {
@@ -684,10 +639,9 @@ body {
     height: 35px;
     background-color: #707070;
     border-radius: 35px;
-    font-family: 'Noto Sans';
-    font-size: 15px;
     letter-spacing: 0.75px;
     color: #FFFFFF;
+    font: 400 15px/15px 'noto sans';
   }
 
   /* footer */
@@ -699,11 +653,9 @@ body {
 
   .footer-logo {
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
     color: #FFFFFF;
-    line-height: 18px;
     margin-bottom: 63px;
+    font: 600 16px/18px 'noto sans';
   }
 
   .footer-nav-list {
@@ -712,8 +664,8 @@ body {
 
   .footer-copyright {
     text-align: center;
-    font-size: 10px;
     letter-spacing: 0.4px;
     color: #FFFFFF;
+    font: 400 10px/10px 'noto sans';
   }
 }
