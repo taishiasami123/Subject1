@@ -1,7 +1,5 @@
 /* 全体のfont指定 */
 body {
-  font-family: 'Noto Sans';
-  font-weight: 400;
   color: #3B3B3B;
 }
 
@@ -10,31 +8,31 @@ body {
 
   /* Q&Aページ */
   .qa-key-visual {
-    width: 100%;
-    height: 0;
-    display: flex;
-    position: relative;
-    padding-bottom: 32%;
-    margin-bottom: 98px;
     background: url(../img/2x/img8.png) no-repeat border-box left top/cover;
+    display: flex;
+    height: 0;
+    margin-bottom: 98px;
+    padding-bottom: 32%;
+    position: relative;
+    width: 100%;
   }
 
   .qa-key-visual-title {
-    position: absolute;
-    top: 45%;
+    color: #FFFFFF;
+    font: 400 30px/30px 'noto sans';
     left: 18%;
     letter-spacing: 3px;
-    color: #FFFFFF;
+    position: absolute;
     text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
-    font: 400 30px/30px 'noto sans';
+    top: 45%;
   }
 
   .qa-question-title {
-    text-align: center;
-    letter-spacing: 2.1px;
     color: #3B3B3B;
-    margin-bottom: 102px;
     font: 400 21px/21px 'noto sans';
+    letter-spacing: 2.1px;
+    margin-bottom: 102px;
+    text-align: center;
   }
 
   .qa-question-contents {
@@ -44,16 +42,16 @@ body {
 
   .qa-question-contents-label {
     display: flex;
+    font: 400 16px/16px 'noto sans';
     justify-content: space-between;
     letter-spacing: 1.6px;
     margin-bottom: 25px;
-    font: 400 16px/16px 'noto sans';
   }
 
   .fas {
     color: #00000034;
-    transition: all .3s;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all .3s;
   }
 
   .fas.open {
@@ -65,12 +63,12 @@ body {
   }
 
   .qa-question-contents-text {
-    text-align: left;
+    font: 400 12px/20px 'noto sans';
     letter-spacing: 0.36px;
     margin-bottom: 51px;
-    transition: all .3s;
     opacity: 0;
-    font: 400 12px/20px 'noto sans';
+    text-align: left;
+    transition: all .3s;
   }
 
   .qa-question-contents-text.open {
@@ -83,31 +81,31 @@ body {
 
   /* Q&Aページ */
   .qa-key-visual {
-    position: relative;
-    width: 100%;
+    background: url(../img/sp/sp-img08.png) no-repeat border-box left -55px/cover;
     height: 0;
     margin-bottom: 98px;
     padding-bottom: 106%;
-    background: url(../img/sp/sp-img08.png) no-repeat border-box left -55px/cover;
+    position: relative;
+    width: 100%;
   }
 
   .qa-key-visual-title {
-    position: absolute;
-    top: 21%;
-    left: 50%;
-    transform: translateX(-50%);
-    letter-spacing: 3px;
     color: #FFFFFF;
-    text-align: center;
     font: 400 30px/30px 'noto sans';
+    left: 50%;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    top: 21%;
+    transform: translateX(-50%);
   }
 
   .qa-question-title {
-    text-align: center;
-    letter-spacing: 2.1px;
     color: #3B3B3B;
-    margin-bottom: 50px;
     font: 400 21px/21px 'noto sans';
+    letter-spacing: 2.1px;
+    margin-bottom: 50px;
+    text-align: center;
   }
 
   .qa-question-contents {
@@ -117,16 +115,16 @@ body {
 
   .qa-question-contents-label {
     display: flex;
+    font: 400 13px/13px 'noto sans';
     justify-content: space-between;
     letter-spacing: 1.3px;
     margin-bottom: 15px;
-    font: 400 13px/13px 'noto sans';
   }
 
   .fas {
     color: #00000034;
-    transition: all .3s;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all .3s;
   }
 
   .fas.open {
@@ -138,16 +136,16 @@ body {
   }
 
   .qa-question-contents-text {
-    text-align: left;
-    letter-spacing: 1.3px;
-    transition: all .3s;
-    opacity: 0;
-    margin: -11px 0 0;
     font: 600 12px/20px 'noto sans';
+    letter-spacing: 1.3px;
+    margin: -11px 0 0;
+    opacity: 0;
+    text-align: left;
+    transition: all .3s;
   }
 
   .qa-question-contents-text.open {
-    opacity: 1;
     margin: 0px 0px 35px;
+    opacity: 1;
   }
 }
