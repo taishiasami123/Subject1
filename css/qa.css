@@ -1,6 +1,7 @@
 /* 全体のfont指定 */
 body {
-  color: #3B3B3B;
+  color: #3b3b3b;
+  background-color: #fff;
 }
 
 /* PC表示版 */
