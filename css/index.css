@@ -16,8 +16,8 @@ body {
     width: 100%;
   }
 
-    color: #918F89;
   .bl_headerLogo {
+    color: #918f89;
     font: 600 16px/15px 'noto sans';
     text-align: center;
   }
@@ -45,7 +45,6 @@ body {
     text-decoration: none;
   }
 
-    border-bottom:  2px solid #3B3B3B;
   .el_headerNav_list_item__active {
     border-bottom:  2px solid #3b3b3b;
     line-height: 22px;
@@ -65,7 +64,7 @@ body {
 
   .bl_MV1_ttl {
     background-color: #fff;
-    color: #918F89;
+    color: #918f89;
     display: inline-block;
     font: 400 60px/82px 'noto sans';
     letter-spacing: 3px;
@@ -121,8 +120,8 @@ body {
     list-style-type: none;
   }
 
-    background-color: #A5A5A5;
   .el_gallery_dot_item {
+    background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
     opacity: 0.3;
@@ -164,7 +163,7 @@ body {
 
   .el_couch::after {
     background-color: rgba(0, 0, 0, 0.5);
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     content: "アームストロングのカウチ入荷";
     font: 400 17px/387px 'noto sans';
     height: 0px;
@@ -196,7 +195,7 @@ body {
 
   .el_chair::after {
     background-color: rgba(0, 0, 0, 0.5);
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     content: "アームストロングのチェア再入荷";
     font: 400 17px/387px 'noto sans';
     height: 0px;
@@ -227,7 +226,7 @@ body {
 
   .el_table::after {
     background-color: rgba(0, 0, 0, 0.5);
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     content: "アームストロングのテーブル入荷";
     font: 400 17px/387px 'noto sans';
     height: 0px;
@@ -250,8 +249,8 @@ body {
     top: 0px;
   }
 
-    color: #3B3B3B;
   .bl_news_txt {
+    color: #3b3b3b;
     display: inline-block;
     font: 400 21px/22px 'noto sans';
     letter-spacing: 1.05px;
@@ -275,9 +274,9 @@ body {
     flex-direction: column;
   }
 
-    background-color: #FFFFFF;
     border: 0.5px solid #707070;
   .el_form_item {
+    background-color: #fff;
     border-radius: 11px;
     box-sizing: border-box;
     margin-bottom: 30px;
@@ -294,7 +293,7 @@ body {
   .el_form_submit {
     background-color: #707070;
     border-radius: 35px;
-    color: #FFFFFF;
+    color: #fff;
     font: 400 15px/17px 'noto sans';
     height: 35px;
     letter-spacing: 0.75px;
@@ -302,8 +301,8 @@ body {
   }
 
   /* footer */
-    background-color: #918F89;
   .ly_footer {
+    background-color: #918f89;
     box-sizing: border-box;
     padding: 116px 219px 35px 227px;
   }
@@ -314,8 +313,8 @@ body {
     justify-content: space-between;
   }
 
-    color: #FFFFFF;
   .bl_footerLogo {
+    color: #fff;
     font: 600 22px/21px 'noto sans';
     text-align: center;
   }
@@ -329,14 +328,14 @@ body {
     width: 40%;
   }
 
-    color: #FFFFFF;
   .el_footerNav_item {
+    color: #fff;
     font: 400 18px/24px 'noto sans';
     text-decoration: none;
   }
 
-    color: #FFFFFF;
   .bl_footerCopyright {
+    color: #fff;
     font: 400 10px/14px 'noto sans';
     letter-spacing: 0.4px;
     text-align: center;
@@ -458,8 +457,8 @@ body {
     width: 100%;
   }
 
-    color: #918F89;
   .bl_MV1_ttl {
+    color: #918f89;
     font: 400 39px/85px 'noto sans';
     letter-spacing: 1.95px;
     position: absolute;
@@ -467,9 +466,9 @@ body {
     top: 21%;
   }
 
-    background-color: #FFFFFF;
     opacity: 0.6;
   .el_MV1_ttl_item {
+    background-color: #fff;
     padding: 13px 10px 10px 54px;
   }
 
@@ -517,16 +516,16 @@ body {
     list-style-type: none;
   }
 
-    background-color: #A5A5A5;
   .el_gallery_dot_item {
+    background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
     opacity: 0.3;
     width: 6px;
   }
 
-    background-color: #A5A5A5;
   .el_gallery_dot_item__active {
+    background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
     margin: 0px 4px 0px;
@@ -558,7 +557,7 @@ body {
 
   .el_newItemImg::after {
     background-color: rgba(0, 0, 0, 0.6);
-    color: rgba(255, 255, 255, 1);
+    color: #fff;
     display: block;
     font: 400 17px/276px 'noto sans';
     height: 276px;
@@ -588,8 +587,8 @@ body {
     content: "アームストロングのテーブル入荷";
   }
 
-    color: #3B3B3B;
   .bl_news_txt {
+    color: #3b3b3b;
     font: 400 21px/22px 'noto sans';
     letter-spacing: 1.05px;
     text-decoration: none;
@@ -610,8 +609,8 @@ body {
     text-align: center;
   }
 
-    background-color: #ffffff;
   .el_form_item {
+    background-color: #fff;
     border: 0.5px solid #707070;
     border-radius: 11px;
     box-sizing: border-box;
@@ -634,7 +633,7 @@ body {
   .el_form_submit {
     background-color: #707070;
     border-radius: 35px;
-    color: #FFFFFF;
+    color: #fff;
     font: 400 15px/15px 'noto sans';
     height: 35px;
     letter-spacing: 0.75px;
@@ -642,14 +641,14 @@ body {
   }
 
   /* footer */
-    background-color: #918F89;
   .ly_footer {
+    background-color: #918f89;
     box-sizing: border-box;
     padding: 86px 0px 78px;
   }
 
-    color: #FFFFFF;
   .ly_footer_inner {
+    color: #fff;
     font: 600 16px/18px 'noto sans';
     margin-bottom: 63px;
     text-align: center;
@@ -659,8 +658,8 @@ body {
     display: none;
   }
 
-    color: #FFFFFF;
   .bl_footerCopyright {
+    color: #fff;
     font: 400 10px/10px 'noto sans';
     letter-spacing: 0.4px;
     text-align: center;
