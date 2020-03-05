@@ -12,7 +12,7 @@ body {
     display: flex;
     height: 60px;
     justify-content: space-between;
-    padding: 13px 89px 0px;
+    padding: 13px 89px 0;
     width: 100%;
   }
 
@@ -41,7 +41,7 @@ body {
   .el_headerNav_list_item {
     color: #272727;
     font: 400 16px/22px 'noto sans';
-    opacity: 0.5;
+    opacity: .5;
     text-decoration: none;
   }
 
@@ -68,7 +68,7 @@ body {
     display: inline-block;
     font: 400 60px/82px 'noto sans';
     letter-spacing: 3px;
-    opacity: 0.8;
+    opacity: .8;
     padding: 31px 60px 23px 88px;
     position: absolute;
     text-align: left;
@@ -95,13 +95,13 @@ body {
   .bl_catch_txt {
     font: 400 12px/30px 'noto sans';
     left: 57%;
-    letter-spacing: 0.36px;
+    letter-spacing: .36px;
     position: absolute;
     top: 54%;
   }
 
-    margin: 0px auto 210px;
   .bl_gallery {
+    margin: 0 auto 210px;
     width: 75%;
   }
 
@@ -124,15 +124,15 @@ body {
     background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
-    opacity: 0.3;
+    opacity: .3;
     width: 6px;
   }
 
     background-color: #A5A5A5;
     border-radius: 50%;
     height: 6px;
-    margin: 0px 4px 0px;
   .el_gallery_dot_item__active {
+    margin: 0 4px;
     opacity: 1;
     width: 6px;
   }
@@ -166,12 +166,12 @@ body {
     color: #fff;
     content: "アームストロングのカウチ入荷";
     font: 400 17px/387px 'noto sans';
-    height: 0px;
-    left: 0px;
+    height: 0;
+    left: 0;
     position: absolute;
     text-align: center;
     top: 387px;
-    transition: all 0.5s;
+    transition: all .5s;
     width: 334px;
   }
 
@@ -183,7 +183,7 @@ body {
     height: 387px;
     position: absolute;
     text-align: center;
-    top: 0px;
+    top: 0;
   }
 
   .el_chair {
@@ -198,12 +198,12 @@ body {
     color: #fff;
     content: "アームストロングのチェア再入荷";
     font: 400 17px/387px 'noto sans';
-    height: 0px;
-    left: 0px;
+    height: 0;
+    left: 0;
     position: absolute;
     text-align: center;
     top: 387px;
-    transition: all 0.5s;
+    transition: all .5s;
   }
 
     content: "アームストロングのチェア再入荷";
@@ -214,7 +214,7 @@ body {
     left: 0px;
     position: absolute;
     text-align: center;
-    top: 0px;
+    top: 0;
   }
 
   .el_table {
@@ -229,12 +229,12 @@ body {
     color: #fff;
     content: "アームストロングのテーブル入荷";
     font: 400 17px/387px 'noto sans';
-    height: 0px;
-    left: 0px;
+    height: 0;
+    left: 0;
     position: absolute;
     text-align: center;
     top: 387px;
-    transition: all 0.5s;
+    transition: all .5s;
     width: 334px;
   }
 
@@ -246,7 +246,7 @@ body {
     left: 0px;
     position: absolute;
     text-align: center;
-    top: 0px;
+    top: 0;
   }
 
   .bl_news_txt {
@@ -274,13 +274,13 @@ body {
     flex-direction: column;
   }
 
-    border: 0.5px solid #707070;
   .el_form_item {
     background-color: #fff;
+    border: .5px solid #707070;
     border-radius: 11px;
     box-sizing: border-box;
     margin-bottom: 30px;
-    opacity: 0.6;
+    opacity: .6;
     padding: 9px 17px;
     width: 463px;
   }
@@ -296,7 +296,7 @@ body {
     color: #fff;
     font: 400 15px/17px 'noto sans';
     height: 35px;
-    letter-spacing: 0.75px;
+    letter-spacing: .75px;
     width: 111px;
   }
 
@@ -337,7 +337,7 @@ body {
   .bl_footerCopyright {
     color: #fff;
     font: 400 10px/14px 'noto sans';
-    letter-spacing: 0.4px;
+    letter-spacing: .4px;
     text-align: center;
   }
 }
@@ -466,9 +466,9 @@ body {
     top: 21%;
   }
 
-    opacity: 0.6;
   .el_MV1_ttl_item {
     background-color: #fff;
+    opacity: .6;
     padding: 13px 10px 10px 54px;
   }
 
@@ -497,8 +497,8 @@ body {
     text-align: center;
   }
 
-    margin: 0px 2% 210px;
   .bl_gallery {
+    margin: 0 2% 210px;
   }
 
   .bl_gallery_ttl {
@@ -520,7 +520,7 @@ body {
     background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
-    opacity: 0.3;
+    opacity: .3;
     width: 6px;
   }
 
@@ -528,7 +528,7 @@ body {
     background-color: #a5a5a5;
     border-radius: 50%;
     height: 6px;
-    margin: 0px 4px 0px;
+    margin: 0 4px;
     opacity: 1;
     width: 6px;
   }
@@ -594,8 +594,8 @@ body {
     text-decoration: none;
   }
 
-    margin: 0px 12% 178px;
   .bl_form {
+    margin: 0 12% 178px;
   }
 
   .bl_form_ttl {

@@ -35,8 +35,8 @@ body {
     text-align: center;
   }
 
-    margin: 0px auto 163px;
   .bl_qanda_conts {
+    margin: 0 auto 163px;
     width: 37%;
   }
 
@@ -64,7 +64,7 @@ body {
 
   .bl_qanda_conts_txt {
     font: 400 12px/20px 'noto sans';
-    letter-spacing: 0.36px;
+    letter-spacing: .36px;
     margin-bottom: 51px;
     opacity: 0;
     text-align: left;
@@ -144,8 +144,8 @@ body {
     transition: all .3s;
   }
 
-    margin: 0px 0px 35px;
   .bl_qanda_conts_txt.open {
+    margin: 0 0 35px;
     opacity: 1;
   }
 }
