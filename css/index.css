@@ -298,6 +298,11 @@ body {
     width: 111px;
   }
 
+  .el_form_submit:hover{
+    background-color: #a5a5a5;
+    color: #3b3b3b;
+  }
+
   /* footer */
   .ly_footer {
     background-color: #918f89;
