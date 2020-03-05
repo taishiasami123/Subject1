@@ -172,14 +172,8 @@ body {
     width: 334px;
   }
 
-    color: rgba(255, 255, 255, 1);
-    content: "アームストロングのカウチ入荷";
-    font: 400 17px/387px 'noto sans';
-    left: 0px;
   .el_couch:hover::after {
     height: 387px;
-    position: absolute;
-    text-align: center;
     top: 0;
   }
 
@@ -204,14 +198,8 @@ body {
     width: 334px;
   }
 
-    content: "アームストロングのチェア再入荷";
-    color: rgba(255, 255, 255, 1);
-    font: 400 17px/387px 'noto sans';
   .el_chair:hover::after {
     height: 387px;
-    left: 0px;
-    position: absolute;
-    text-align: center;
     top: 0;
   }
 
@@ -236,14 +224,8 @@ body {
     width: 334px;
   }
 
-    color: rgba(255, 255, 255, 1);
-    content: "アームストロングのテーブル入荷";
-    font: 400 17px/387px 'noto sans';
   .el_table:hover::after {
     height: 387px;
-    left: 0px;
-    position: absolute;
-    text-align: center;
     top: 0;
   }
 
