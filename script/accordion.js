@@ -1,5 +1,5 @@
-const checkboxes = Array.from(document.getElementsByClassName("checkbox"));
-const texts = document.getElementsByClassName("qa-question-contents-text");
+const checkboxes = Array.from(document.getElementsByClassName("el_checkbox"));
+const texts = document.getElementsByClassName("bl_qanda_conts_txt");
 const arrows = document.getElementsByClassName("fas");
 
 checkboxes.forEach(check => {

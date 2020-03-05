@@ -1,7 +1,7 @@
 const humberger = document.getElementById("humberger");
-const line = document.getElementsByClassName("line");
-const li = document.getElementsByClassName("header-nav-list-li")
-const item = document.getElementsByClassName("header-nav-list-item");
+const line = document.getElementsByClassName("el_line");
+const li = document.getElementsByClassName("el_headerNav_list_inner")
+const item = document.getElementsByClassName("el_headerNav_list_item");
 
 humberger.onclick = () => {
     for (let i = 0; i < line.length; i++) {
