@@ -7,7 +7,7 @@ body {
 @media screen and (min-width:769px) {
 
   /* Q&Aページ */
-  .qa-key-visual {
+  .bl_MV3 {
     background: url(../img/2x/img8.png) no-repeat border-box left top/cover;
     display: flex;
     height: 0;
@@ -17,8 +17,8 @@ body {
     width: 100%;
   }
 
-  .qa-key-visual-title {
     color: #FFFFFF;
+  .bl_MV3_ttl {
     font: 400 30px/30px 'noto sans';
     left: 18%;
     letter-spacing: 3px;
@@ -27,20 +27,20 @@ body {
     top: 45%;
   }
 
-  .qa-question-title {
     color: #3B3B3B;
+  .bl_qanda_ttl {
     font: 400 21px/21px 'noto sans';
     letter-spacing: 2.1px;
     margin-bottom: 102px;
     text-align: center;
   }
 
-  .qa-question-contents {
     margin: 0px auto 163px;
+  .bl_qanda_conts {
     width: 37%;
   }
 
-  .qa-question-contents-label {
+  .bl_qanda_conts_label {
     display: flex;
     font: 400 16px/16px 'noto sans';
     justify-content: space-between;
@@ -58,11 +58,11 @@ body {
     transform: matrix(-1, 0, 0, -1, 0, 0);
   }
 
-  .checkbox {
+  .el_checkbox {
     display: none;
   }
 
-  .qa-question-contents-text {
+  .bl_qanda_conts_txt {
     font: 400 12px/20px 'noto sans';
     letter-spacing: 0.36px;
     margin-bottom: 51px;
@@ -71,7 +71,7 @@ body {
     transition: all .3s;
   }
 
-  .qa-question-contents-text.open {
+  .bl_qanda_conts_txt.open {
     opacity: 1;
   }
 }
@@ -80,7 +80,7 @@ body {
 @media screen and (max-width: 768px) {
 
   /* Q&Aページ */
-  .qa-key-visual {
+  .bl_MV3 {
     background: url(../img/sp/sp-img08.png) no-repeat border-box left -55px/cover;
     height: 0;
     margin-bottom: 98px;
@@ -89,8 +89,8 @@ body {
     width: 100%;
   }
 
-  .qa-key-visual-title {
     color: #FFFFFF;
+  .bl_MV3_ttl {
     font: 400 30px/30px 'noto sans';
     left: 50%;
     letter-spacing: 3px;
@@ -100,20 +100,20 @@ body {
     transform: translateX(-50%);
   }
 
-  .qa-question-title {
     color: #3B3B3B;
+  .bl_qanda_ttl {
     font: 400 21px/21px 'noto sans';
     letter-spacing: 2.1px;
     margin-bottom: 50px;
     text-align: center;
   }
 
-  .qa-question-contents {
+  .bl_qanda_conts {
     margin: 0px auto 123px;
     width: 74%;
   }
 
-  .qa-question-contents-label {
+  .bl_qanda_conts_label {
     display: flex;
     font: 400 13px/13px 'noto sans';
     justify-content: space-between;
@@ -131,11 +131,11 @@ body {
     transform: matrix(-1, 0, 0, -1, 0, 0);
   }
 
-  .checkbox {
+  .el_checkbox {
     display: none;
   }
 
-  .qa-question-contents-text {
+  .bl_qanda_conts_txt {
     font: 600 12px/20px 'noto sans';
     letter-spacing: 1.3px;
     margin: -11px 0 0;
@@ -144,8 +144,8 @@ body {
     transition: all .3s;
   }
 
-  .qa-question-contents-text.open {
     margin: 0px 0px 35px;
+  .bl_qanda_conts_txt.open {
     opacity: 1;
   }
 }

@@ -7,7 +7,7 @@ body {
 @media screen and (min-width:769px) {
 
   /* Newsページ */
-  .news-key-visual {
+  .bl_MV2 {
     background: url(../img/2x/img7.png) no-repeat border-box left top/cover;
     display: flex;
     height: 0;
@@ -17,7 +17,7 @@ body {
     width: 100%;
   }
 
-  .news-key-visual-title {
+  .bl_MV2_ttl {
     color: #918F89;
     font: 400 30px/30px 'noto sans';
     left: 18%;
@@ -26,23 +26,23 @@ body {
     top: 45%;
   }
 
-  .news-information {
+  .bl_inf {
     margin-bottom: 320px;
   }
 
-  .news-information-title {
+  .bl_inf_ttl {
     font: 400 21px/21px 'noto sans';
     letter-spacing: 2.1px;
     margin-bottom: 80px;
     text-align: center;
   }
 
-  .news-information-contents {
+  .bl_inf_conts {
     display: flex;
     justify-content: space-around;
   }
 
-  .news-information-text {
+  .bl_inf_txt {
       display: none;
   }
 }
@@ -51,7 +51,7 @@ body {
 
 /* SP表示版 */
 @media screen and (max-width: 768px) {
-  .news-key-visual {
+  .bl_MV2 {
     background: url(../img/sp/sp-img07.png) no-repeat border-box left -55px/cover;
     height: 0;
     margin-bottom: 70px;
@@ -60,7 +60,7 @@ body {
     width: 100%;
   }
 
-  .news-key-visual-title {
+  .bl_MV2_ttl {
     color: #918F89;
     font: 400 30px/30px 'noto sans';
     left: 50%;
@@ -71,24 +71,24 @@ body {
     transform: translateX(-50%);
   }
 
-  .news-information {
+  .bl_inf {
     margin-bottom: 143px;
     text-align: center;
   }
 
-  .news-information-title {
+  .bl_inf_ttl {
     font: 400 21px/21px 'noto sans';
     letter-spacing: 2.1px;
     margin-bottom: 70px;
     text-align: center;
   }
 
-  .news-information-contents {
+  .bl_inf_conts {
     display: inline-block;
     margin-bottom: 40px;
   }
 
-  .news-information-text {
+  .bl_inf_txt {
     font: 400 21px/21px 'noto sans';
     letter-spacing: 1.05px;
   }
