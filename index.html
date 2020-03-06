@@ -2,81 +2,89 @@
 <html lang="ja">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">    
-    <link rel="stylesheet" href="css/html5reset-1.6.1.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-    <title>HTML CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/html5reset-1.6.1.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap">
+  <title>HTML CSS</title>
 </head>
 
 <body>
-    <header>
-        <p class="header-logo">HTML<br>CSS</p>
-        <nav class="header-nav">
-            <ul class="header-nav-list">
-                <li class="header-nav-list-active">About</li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="qa.html">Q&A</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="about-key-visual">
-            <h1 class="about-key-visual-title">
-                <span class="about-key-visual-title-item">We</span><span class="br"></span>
-                <span class="about-key-visual-title-item">propose</span><span class="br"></span>
-                <span class="about-key-visual-title-item">a life.</span>
-            </h1>
-        </div>
-        <section class="about-catchphrase">
-            <h2 class="about-catchphrase-title">暮らしを提案する。</h2>
-            <p class="about-catchphrase-text">
-                私たちは、家具を売るのではなく、<span class="br"></span>お客様の理想とする<br>
-                「暮らし」を提案します。<br>
-                仕事で疲れた後に帰りたくなる、<br>
-                今日も１日頑張ろうと思える、<br>
-                そんな空間をお客様と一緒に作り上げていくのが<span class="br"></span>私たちの仕事です。
-            </p>
-        </section>
-        <section class="about-gallery">
-            <h2 class="about-gallery-text">豊富なスタイル</h2>
-            <ul class="about-dot">
-                <li></li>
-                <li class="about-dot-active"></li>
-                <li></li>
-            </ul>
-        </section>
-        <section class="about-news">
-            <h2 class="about-news-title">NEWS</h2>
-            <div class="about-news-contents">
-                <div class="couch contents-item"></div>
-                <div class="chair contents-item"></div>
-                <div class="table contents-item"></div>
-            </div>
-            <a class="about-news-text" href="#">view more</a>
-        </section>
-        <section class="about-form">
-            <h2 class="about-form-title">CONTACT</h2>
-            <form class="about-form-forms">
-                <input class="forms about-form-name" type="text" placeholder="お名前">
-                <input class="forms about-form-mail" type="email" placeholder="メールアドレス">
-                <textarea class="forms about-form-text" name="content" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
-                <input class="about-form-submit" type="submit" value="SEND">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-container">
-            <p class="footer-logo">HTML<br>CSS</p>
-            <ul class="footer-nav-list">
-                <li>About</li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="qa.html">Q&A</a></li>
-            </ul>    
-        </div>
-        <p class="footer-copyright">@HTMLCSS.code</p>
-    </footer>
+  <header class="ly_header">
+    <div class="ly_header_inner">
+      <p class="bl_headerLogo">HTML<br>CSS</p>
+      <div class="bl_headerHumberger" id="humberger">
+        <span class="el_humbergerLine el_humbergerLineTop"></span>
+        <span class="el_humbergerLine el_humbergerLineMid"></span>
+        <span class="el_humbergerLine el_humbergerLineBtm"></span>
+      </div>
+    </div>
+    <nav class="bl_headerNav">
+      <ul class="bl_headerNav_list">
+        <li class="el_headerNav_list_inner"><a class="el_headerNav_list_item el_headerNav_list_item__active" href="index.html">About</a></li>
+        <li class="el_headerNav_list_inner"><a class="el_headerNav_list_item" href="news.html">News</a></li>
+        <li class="el_headerNav_list_inner"><a class="el_headerNav_list_item" href="qa.html">Q&A</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="bl_MV1">
+      <h1 class="bl_MV1_ttl">
+        <span class="el_MV1_ttl_item">We</span><span class="el_br"></span>
+        <span class="el_MV1_ttl_item">propose</span><span class="el_br"></span>
+        <span class="el_MV1_ttl_item">a life.</span>
+      </h1>
+    </div>
+    <section class="bl_catch">
+      <h2 class="bl_catch_ttl">暮らしを提案する。</h2>
+      <p class="bl_catch_txt">
+        私たちは、家具を売るのではなく、<span class="el_br"></span>お客様の理想とする<br>
+        「暮らし」を提案します。<br>
+        仕事で疲れた後に帰りたくなる、<br>
+        今日も１日頑張ろうと思える、<br>
+        そんな空間をお客様と一緒に作り上げていくのが<span class="el_br"></span>私たちの仕事です。
+      </p>
+    </section>
+    <section class="bl_gallery">
+      <h2 class="bl_gallery_ttl">豊富なスタイル</h2>
+      <ul class="bl_gallery_dot">
+        <li class="el_gallery_dot_item"></li>
+        <li class="el_gallery_dot_item el_gallery_dot_item__active"></li>
+        <li class="el_gallery_dot_item"></li>
+      </ul>
+    </section>
+    <section class="bl_news">
+      <h2 class="bl_news_ttl">NEWS</h2>
+      <div class="bl_news_conts">
+        <div class="el_couch el_newItemImg"></div>
+        <div class="el_chair el_newItemImg"></div>
+        <div class="el_table el_newItemImg"></div>
+      </div>
+      <a class="bl_news_txt" href="#">view more</a>
+    </section>
+    <section class="bl_form">
+      <h2 class="bl_form_ttl">CONTACT</h2>
+      <form class="bl_form_forms">
+        <input class="el_form_item el_form_name" type="text" placeholder="お名前">
+        <input class="el_form_item el_form_mail" type="email" placeholder="メールアドレス">
+        <textarea class="el_form_item el_form_text" name="content" cols="30" rows="10" placeholder="お問い合わせ内容"></textarea>
+        <input class="el_form_submit" type="submit" value="SEND">
+      </form>
+    </section>
+  </main>
+  <footer class="ly_footer">
+    <div class="ly_footer_inner">
+      <p class="bl_footerLogo">HTML<br>CSS</p>
+      <ul class="bl_footerNav">
+        <li><a class="el_footerNav_item" href="index.html">About</a></li>
+        <li><a class="el_footerNav_item" href="news.html">News</a></li>
+        <li><a class="el_footerNav_item" href="qa.html">Q&A</a></li>
+      </ul>
+    </div>
+    <p class="bl_footerCopyright">@HTMLCSS.code</p>
+  </footer>
+  <script src="script/humberger.js"></script>
 </body>
 
 </html>

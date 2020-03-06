@@ -1,107 +1,152 @@
 /* 全体のfont指定 */
-body{
-    font-family: 'Noto Sans';
-    font-weight: 400;
-    color: #3B3B3B;
+body {
+  color: #3b3b3b;
+  background-color: #fff;
 }
 
 /* PC表示版 */
-@media screen and (min-width:769px){
+@media screen and (min-width:769px) {
 
-    /* Q&Aページ */
-    .qa-key-visual{
-        width: 100%;
-        height: 0;
-        background-image: url(../img/2x/img8.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: flex;
-        position: relative;
-        padding-bottom: 32%;
-        margin-bottom: 98px;
-        box-sizing: border-box;
-    }
+  /* Q&Aページ */
+  .bl_MV3 {
+    background: url(../img/2x/img8.png) no-repeat border-box left top/cover;
+    display: flex;
+    height: 0;
+    margin-bottom: 98px;
+    padding-bottom: 32%;
+    position: relative;
+    width: 100%;
+  }
 
-    .qa-key-visual-title{
-        position: absolute;
-        top: 45%;
-        left: 18%;
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #FFFFFF;
-        text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
-    }
+  .bl_MV3_ttl {
+    color: #fff;
+    font: 400 30px/30px 'noto sans';
+    left: 18%;
+    letter-spacing: 3px;
+    position: absolute;
+    text-shadow: 8px 12px rgba(255, 255, 255, 0.1);
+    top: 45%;
+  }
 
-    .qa-question-title{
-        text-align: center;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 2.1px;
-        color: #3B3B3B;
-        margin-bottom: 73px;
-    }
+  .bl_qanda_ttl {
+    color: #3b3b3b;
+    font: 400 21px/21px 'noto sans';
+    letter-spacing: 2.1px;
+    margin-bottom: 102px;
+    text-align: center;
+  }
 
-    .qa-question-contents{
-        margin: 0px auto 123px;
-        width: 474px;
-    }
+  .bl_qanda_conts {
+    margin: 0 auto 163px;
+    width: 37%;
+  }
 
-    .qa-question-contents p{
-        text-align: left;
-        font-size: 16px;
-        letter-spacing: 1.6px;
-        margin-bottom: 100px;
-    }
+  .bl_qanda_conts_label {
+    display: flex;
+    font: 400 16px/16px 'noto sans';
+    justify-content: space-between;
+    letter-spacing: 1.6px;
+    margin-bottom: 25px;
+  }
+
+  .fas {
+    color: #00000034;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all .3s;
+  }
+
+  .fas.open {
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+
+  .el_checkbox {
+    display: none;
+  }
+
+  .bl_qanda_conts_txt {
+    font: 400 12px/20px 'noto sans';
+    letter-spacing: .36px;
+    margin-bottom: 51px;
+    opacity: 0;
+    text-align: left;
+    transition: all .3s;
+  }
+
+  .bl_qanda_conts_txt.open {
+    opacity: 1;
+  }
 }
 
 /* SP表示版 */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-    /* Q&Aページ */
-    .qa-key-visual{
-        position: relative;
-        width: 100%;
-        height: 0;
-        background-image: url(../img/sp/sp-img08.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0px -55px;
-        margin-bottom: 98px;
-        padding-bottom: 106%;
-        box-sizing: border-box;
-    }
+  /* Q&Aページ */
+  .bl_MV3 {
+    background: url(../img/sp/sp-img08.png) no-repeat border-box left top/cover;
+    height: 0;
+    margin-bottom: 98px;
+    padding-bottom: 121%;
+    position: relative;
+    width: 100%;
+  }
 
-    .qa-key-visual-title{
-        position: absolute;
-        top: 21%;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 30px;
-        font-weight: 400;
-        letter-spacing: 3px;
-        color: #FFFFFF;
-        text-align: center;
-    }
+  .bl_MV3_ttl {
+    color: #fff;
+    font: 400 30px/30px 'noto sans';
+    left: 50%;
+    letter-spacing: 3px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translateX(-50%);
+  }
 
-    .qa-question-title{
-        text-align: center;
-        font-size: 21px;
-        font-weight: 400;
-        letter-spacing: 2.1px;
-        color: #3B3B3B;
-        margin-bottom: 50px;
-    }
+  .bl_qanda_ttl {
+    color: #3b3b3b;
+    font: 400 21px/21px 'noto sans';
+    letter-spacing: 2.1px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 
-    .qa-question-contents{
-        margin: 0px auto 123px;
-        width: 74%;
-    }
+  .bl_qanda_conts {
+    margin: 0px auto 123px;
+    width: 74%;
+  }
 
-    .qa-question-contents p{
-        text-align: left;
-        font-size: 13px;
-        letter-spacing: 1.3px;
-        margin: 0px 0px 32px;
-    }
+  .bl_qanda_conts_label {
+    display: flex;
+    font: 400 13px/13px 'noto sans';
+    justify-content: space-between;
+    letter-spacing: 1.3px;
+    margin-bottom: 15px;
+  }
+
+  .fas {
+    color: #00000034;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all .3s;
+  }
+
+  .fas.open {
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+
+  .el_checkbox {
+    display: none;
+  }
+
+  .bl_qanda_conts_txt {
+    font: 600 12px/20px 'noto sans';
+    letter-spacing: 1.3px;
+    margin: -11px 0 0;
+    opacity: 0;
+    text-align: left;
+    transition: all .3s;
+  }
+
+  .bl_qanda_conts_txt.open {
+    margin: 0 0 35px;
+    opacity: 1;
+  }
 }
