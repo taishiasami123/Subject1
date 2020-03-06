@@ -82,10 +82,10 @@ body {
 
   /* Q&Aページ */
   .bl_MV3 {
-    background: url(../img/sp/sp-img08.png) no-repeat border-box left -55px/cover;
+    background: url(../img/sp/sp-img08.png) no-repeat border-box left top/cover;
     height: 0;
     margin-bottom: 98px;
-    padding-bottom: 106%;
+    padding-bottom: 121%;
     position: relative;
     width: 100%;
   }
@@ -97,7 +97,7 @@ body {
     letter-spacing: 3px;
     position: absolute;
     text-align: center;
-    top: 21%;
+    top: 30%;
     transform: translateX(-50%);
   }
 

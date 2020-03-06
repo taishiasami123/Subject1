@@ -53,10 +53,10 @@ body {
 /* SP表示版 */
 @media screen and (max-width: 768px) {
   .bl_MV2 {
-    background: url(../img/sp/sp-img07.png) no-repeat border-box left -55px/cover;
+    background: url(../img/sp/sp-img07.png) no-repeat border-box left top/cover;
     height: 0;
     margin-bottom: 70px;
-    padding-bottom: 106%;
+    padding-bottom: 121%;
     position: relative;
     width: 100%;
   }
@@ -68,7 +68,7 @@ body {
     letter-spacing: 3px;
     position: absolute;
     text-align: center;
-    top: 21%;
+    top: 30%;
     transform: translateX(-50%);
   }
 

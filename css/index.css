@@ -434,10 +434,10 @@ body {
 
   /* Aboutページ */
   .bl_MV1 {
-    background: url(../img/sp/sp-img01.png) no-repeat left -55px/cover;
+    background: url(../img/sp/sp-img01.png) no-repeat left top/cover;
     height: 0;
     margin-bottom: 72px;
-    padding-bottom: 173%;
+    padding-bottom: 187%;
     position: relative;
     width: 100%;
   }
@@ -448,7 +448,7 @@ body {
     letter-spacing: 1.95px;
     position: absolute;
     text-align: left;
-    top: 21%;
+    top: 29%;
   }
 
   .el_MV1_ttl_item {
