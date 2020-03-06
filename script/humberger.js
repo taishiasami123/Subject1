@@ -1,5 +1,5 @@
 const humberger = document.getElementById("humberger");
-const line = document.getElementsByClassName("el_line");
+const line = document.getElementsByClassName("el_humbergerLine");
 const li = document.getElementsByClassName("el_headerNav_list_inner")
 const item = document.getElementsByClassName("el_headerNav_list_item");
 
